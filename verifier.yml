@@ -1,0 +1,37 @@
+name: Vérifier les joueurs (Wikidata)
+
+# Quand la vérification tourne :
+on:
+  schedule:
+    - cron: "0 6 * * *"     # tous les jours à 06:00 UTC (le script décide s'il fait tout ou 1/7)
+  workflow_dispatch: {}      # + un bouton "Run workflow" pour lancer à la main quand tu veux
+
+permissions:
+  contents: write            # autorise le robot à enregistrer registre.json dans le dépôt
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Lancer la vérification
+        run: node verifier-joueurs.mjs
+
+      - name: Enregistrer les mises à jour
+        run: |
+          git config user.name "TomsoFoot Bot"
+          git config user.email "bot@tomsofoot.fr"
+          git add registre.json journal-*.jsonl 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "Aucun changement aujourd'hui."
+          else
+            git commit -m "MAJ situations joueurs ($(date +%F))"
+            git push
+          fi
