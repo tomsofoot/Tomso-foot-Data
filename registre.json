@@ -10118,14 +10118,23 @@
     "avant": "Paris Saint-Germain FC",
     "apres": "Paris Saint-Germain",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-07-28",
+    "id": "Q63878",
+    "name": "Anja Mittag",
+    "champ": "club_actuel",
+    "avant": "Paris Saint-Germain",
+    "apres": "Paris Saint-Germain FC",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Paris Saint-Germain",
+  "club_actuel": "Paris Saint-Germain FC",
   "statut": "en_activite",
   "tm_id": null,
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Paris Saint-Germain",
+   "club": "Paris Saint-Germain FC",
    "date": "2015-01-01"
   },
   "confiance": "a_verifier",
@@ -21780,7 +21789,7 @@
   "tm_id": "3371",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Associação Desportiva São Caetano",
+   "club": "Atlético Monte Azul",
    "date": "2010-01-01"
   },
   "confiance": "ok",
@@ -30455,8 +30464,8 @@
   "statut": "en_activite",
   "tm_id": "556385",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Udinese Calcio",
+   "type": "transfert",
+   "club": "Tottenham Hotspur",
    "date": "2022-08-01"
   },
   "confiance": "ok",
@@ -32255,8 +32264,8 @@
   "statut": "en_activite",
   "tm_id": "34226",
   "dernier_mouvement": {
-   "type": "transfert",
-   "club": "Veria F.C.",
+   "type": "pret",
+   "club": "KSC Lokeren",
    "date": "2015-01-01"
   },
   "confiance": "ok",
@@ -32300,8 +32309,8 @@
   "statut": "en_activite",
   "tm_id": "17735",
   "dernier_mouvement": {
-   "type": "transfert",
-   "club": "UC Sampdoria",
+   "type": "pret",
+   "club": "US Livourne 1915",
    "date": "2014-01-01"
   },
   "confiance": "ok",
@@ -60299,8 +60308,8 @@
   "statut": "en_activite",
   "tm_id": "192611",
   "dernier_mouvement": {
-   "type": "transfert",
-   "club": "Manchester United FC",
+   "type": "pret",
+   "club": "Rochdale AFC",
    "date": "2015-01-01"
   },
   "confiance": "ok",
@@ -83871,7 +83880,7 @@
   "tm_id": "670",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "RCD Espanyol",
+   "club": "PFC CSKA Sofia",
    "date": "2013-01-01"
   },
   "confiance": "ok",
@@ -91557,7 +91566,7 @@
   "tm_id": "6119",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Shanghai Shenhua FC",
+   "club": "Real Madrid CF",
    "date": "2015-01-01"
   },
   "confiance": "ok",
@@ -100061,8 +100070,8 @@
   "statut": "en_activite",
   "tm_id": "44709",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Olympique de Marseille",
+   "type": "transfert",
+   "club": "Juventus FC",
    "date": "2015-01-01"
   },
   "confiance": "ok",
@@ -103976,8 +103985,8 @@
   "statut": "en_activite",
   "tm_id": "64339",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "RCD Espanyol",
+   "type": "transfert",
+   "club": "SL Benfica",
    "date": "2013-01-01"
   },
   "confiance": "ok",
@@ -108728,8 +108737,8 @@
   "statut": "retraite",
   "tm_id": "2995",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Club Deportivo Tenerife",
+   "type": "transfert",
+   "club": "Hanovre 96",
    "date": "2004-01-01"
   },
   "confiance": "ok",
@@ -110924,8 +110933,8 @@
   "statut": "en_activite",
   "tm_id": "121756",
   "dernier_mouvement": {
-   "type": "transfert",
-   "club": "Hellas Vérone Football Club",
+   "type": "pret",
+   "club": "Juventus FC",
    "date": "2014-01-01"
   },
   "confiance": "ok",
@@ -126864,7 +126873,7 @@
   "tm_id": "3842",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Birmingham City FC",
+   "club": "Liga de Quito",
    "date": "2009-01-01"
   },
   "confiance": "ok",
