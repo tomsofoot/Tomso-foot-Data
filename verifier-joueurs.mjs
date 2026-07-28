@@ -1,33 +1,32 @@
-// verifier-joueurs.mjs
+// verifier-joueurs.mjs  (v2 — clubs uniquement + retraités bien détectés)
 // ─────────────────────────────────────────────────────────────────────────────
 // Vérifie et met à jour la SITUATION de chaque joueur du jeu TomsoFoot depuis
-// WIKIDATA, et ne réécrit que ce qui a réellement changé. Conçu pour tourner tout
-// seul sur GitHub Actions (mais lançable aussi à la main : node verifier-joueurs.mjs).
+// WIKIDATA, et ne réécrit que ce qui a réellement changé. Conçu pour GitHub Actions
+// (lançable aussi à la main : node verifier-joueurs.mjs ; passe complète : --full).
 //
 // Pour chaque joueur : club actuel, statut (en_activite / sans_club / retraite),
 // dernier mouvement (transfert ou prêt + date), date de dernière vérif, source,
 // niveau de confiance, éligibilité "joueur du jour", et historique des changements.
 //
-// Cadence :
-//   • Mercato Europe (1 juin→1 sept. et 1 janv.→1 févr.) → TOUS les joueurs chaque jour.
-//   • Hors mercato → 1/7 des joueurs par jour (rotation) → chacun vérifié ~1x/semaine.
-//   (Forcer une passe complète : node verifier-joueurs.mjs --full)
+// v2 : on ne regarde QUE les vrais clubs de foot (pas les sélections nationales),
+//      et un joueur sans club ouvert est "retraité" s'il l'était déjà dans le jeu
+//      OU si son dernier club s'est terminé il y a plus de 18 mois ; sinon "sans_club".
 //
-// Sorties : registre.json (l'état) + journal-<année>.jsonl (tous les changements).
-// Prérequis : Node 18+.
+// Cadence : mercato (janv + juin-août) → tous les jours ; sinon 1/7 par jour (rotation).
+// Sorties : registre.json + journal-<année>.jsonl. Prérequis : Node 18+.
 // ─────────────────────────────────────────────────────────────────────────────
 import fs from "node:fs/promises";
 
-const UA = "TomsoFoot-verif/1.0 (jeu de devinette; contact: tomsofoot.fr)";
+const UA = "TomsoFoot-verif/2.0 (jeu de devinette; contact: tomsofoot.fr)";
 const SPARQL = "https://query.wikidata.org/sparql";
 const REGISTRE = "registre.json";
-const BATCH = 50;
+const BATCH = 40;
 const PAUSE = 500;
-const GRACE_JOURS = 7;        // délai de grâce après un transfert (non éligible)
-const FRAIS_JOURS_RECENT = 30;// un changement < 30 j → à vérifier à la main
+const GRACE_JOURS = 7;
+const FRAIS_JOURS_RECENT = 30;
+const RETRAITE_MOIS = 18;             // dernier club fini il y a > 18 mois → retraité
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-// Liste de référence : QID -> nom (les 2838 joueurs du jeu)
 const JOUEURS = {
   "Q245054":"Fabio Borini","Q318905":"Krisztián Németh","Q312183":"Mamadou Sakho","Q248228":"Luis Alberto","Q147589":"Kolo Touré","Q372624":"Jack Robinson","Q250901":"Álvaro Arbeloa","Q250978":"Djimi Traoré",
   "Q16239548":"Marko Grujić","Q252190":"Xherdan Shaqiri","Q27694":"Emre Can","Q360217":"Paul Anderson","Q339252":"Loris Karius","Q342342":"Gabriel Paletta","Q342497":"Miki Roqué","Q342690":"Florent Sinama-Pongolle",
@@ -385,20 +384,83 @@ const JOUEURS = {
   "Q318563":"Ioánnis Amanatídis","Q66301":"Julian Schuster","Q20436216":"Grischa Prömel","Q299525":"Przemysław Tytoń","Q319879":"Marcin Kamiński","Q22998602":"Maximilian Mittelstädt","Q62403":"Thomas Brdarić","Q57148":"Cacau",
   "Q310206":"Fernando Meira","Q310612":"Shinji Okazaki","Q312508":"Arthur Boka","Q558820":"Gōtoku Sakai","Q315665":"Ricardo Osorio","Q316222":"Pável Pardo"
 };
+const RETIRED = new Set([
+  "Q245054","Q312183","Q147589","Q250901","Q250978","Q16239548","Q342497","Q342572","Q26704703","Q17493","Q349125","Q350412","Q350785","Q357977","Q185208","Q155884","Q155903","Q112813857","Q271615","Q10885",
+  "Q372046","Q128829","Q161571","Q296589","Q274626","Q163666","Q299228","Q113433814","Q285841","Q110739094","Q10526787","Q104784711","Q294214","Q294501","Q184946","Q295416","Q295627","Q248890","Q175296","Q180581",
+  "Q184205","Q184218","Q184612","Q311353","Q311342","Q241321","Q241378","Q312437","Q313054","Q313104","Q313131","Q313137","Q313250","Q314235","Q314625","Q3557182","Q316540","Q215435","Q714067","Q204141",
+  "Q204429","Q42100656","Q206548","Q723606","Q208433","Q208430","Q209650","Q988626","Q19518278","Q18881","Q57567","Q18982","Q42731","Q1926","Q215425","Q215533","Q1939","Q216557","Q216910","Q59432",
+  "Q45567","Q59719","Q511720","Q220593","Q66385776","Q222231","Q61225","Q5220475","Q6277526","Q4254043","Q5024","Q239914","Q223229","Q1936","Q20932574","Q189449","Q189827","Q190515","Q190651","Q190929",
+  "Q191151","Q191162","Q192840","Q192913","Q687198","Q208104","Q75857","Q458302","Q459830","Q703414","Q202312","Q19008392","Q245057","Q247462","Q191139","Q249488","Q1361462","Q326293","Q327227","Q10585",
+  "Q334564","Q29566","Q342387","Q261534","Q17507","Q350799","Q355847","Q2339","Q266613","Q163564","Q1862778","Q275169","Q211596","Q29495","Q161041","Q18976","Q130319703","Q200785","Q1916","Q215463",
+  "Q165125","Q216917","Q218063","Q167790","Q306351","Q313617","Q13422031","Q221222","Q170235","Q30689579","Q172792","Q294593","Q295506","Q174486","Q10520","Q177343","Q298713","Q309781","Q311035","Q312152",
+  "Q206641","Q315305","Q605817","Q464846","Q723565","Q482955","Q483417","Q484968","Q489039","Q72603655","Q44298","Q44788","Q80712","Q45626","Q96755704","Q83756","Q47548","Q442911","Q50600","Q50603",
+  "Q63659","Q437322","Q458316","Q46896","Q350547","Q108776426","Q354629","Q29339","Q114859","Q41244","Q41533","Q10905","Q10911","Q1255625","Q363769","Q133556","Q375295","Q296341","Q296391","Q296457",
+  "Q299515","Q275710","Q276349","Q459707","Q299768","Q310402","Q312120","Q312354","Q312334","Q312980","Q315330","Q315301","Q109397","Q326181","Q454196","Q11948","Q342214","Q346676","Q187396","Q96755",
+  "Q188241","Q16063229","Q191848","Q16200385","Q570109","Q192747","Q181921","Q192971","Q150921","Q210944","Q483137","Q83456","Q17499","Q73360","Q969520","Q200770","Q570811","Q202645","Q204059","Q204230",
+  "Q204407","Q155461","Q206677","Q207806","Q65029821","Q213989","Q483846","Q210056","Q158618","Q159057","Q211996","Q160206","Q15063275","Q214204","Q214751","Q1913","Q659634","Q58377","Q215944","Q216142",
+  "Q1937","Q19497","Q166984","Q168287","Q184614","Q223176","Q223827","Q919182","Q48892","Q80197171","Q234866","Q138075","Q180462","Q237561","Q57704058","Q184261","Q184362","Q314755","Q316512","Q187450",
+  "Q188542","Q188997","Q319164","Q192856","Q10711","Q192923","Q29162","Q2245840","Q113156","Q29497","Q29516","Q342219","Q314102","Q201837","Q2332951","Q204848","Q204895","Q208025","Q208586","Q14824665",
+  "Q210928","Q14946538","Q276399","Q213427","Q214124","Q1908","Q1915","Q1920","Q1929","Q215770","Q1938","Q1942","Q1943","Q217760","Q167240","Q19888012","Q219248","Q17482506","Q15199","Q223138",
+  "Q173360","Q190142","Q314750","Q3318533","Q180193","Q10560","Q180444","Q20641306","Q18126412","Q20738815","Q20740627","Q184177","Q310043","Q310055","Q311191","Q312002","Q241103","Q185572","Q313140","Q313677",
+  "Q356392","Q46347","Q40604","Q55820249","Q83488","Q83638","Q42010","Q369915","Q59490","Q45901","Q46522","Q434354","Q47230","Q7121685","Q377746","Q529425","Q60676459","Q47950","Q381401","Q386876",
+  "Q35039261","Q9675","Q70550","Q694014","Q375510","Q599675","Q317317","Q244790","Q191855","Q326502","Q328911","Q194769","Q356038","Q150947","Q335693","Q151260","Q314099","Q456617","Q346735","Q459356",
+  "Q460696","Q113916","Q201381","Q202329","Q202404","Q265654","Q357664","Q471641","Q363257","Q205773","Q206306","Q206644","Q209944","Q370339","Q210916","Q211126","Q211451","Q213095","Q44309","Q215812",
+  "Q215841","Q223843","Q119562","Q381672","Q296833","Q44297797","Q142283","Q310330","Q310408","Q310660","Q29456","Q241502","Q313035","Q313161","Q313582","Q314865","Q439309","Q316698","Q316695","Q161069",
+  "Q59938996","Q70567","Q58441","Q166285","Q187184","Q177686","Q184277","Q185093","Q185650","Q254410","Q29454","Q125538","Q342904","Q350466","Q460512","Q349332","Q113872","Q350976","Q353520","Q342308",
+  "Q465623","Q177472","Q1257196","Q454220","Q1910","Q1928","Q282463","Q3852031","Q378005","Q296033","Q296621","Q296635","Q296979","Q299244","Q299455","Q302130","Q308394","Q334628","Q310668","Q311372",
+  "Q314643","Q16023869","Q318103","Q318539","Q189686","Q202569","Q203657","Q207464","Q208087","Q2447742","Q5022998","Q83498","Q226125","Q7150395","Q380128","Q2081532","Q239513","Q557329","Q946679","Q247312",
+  "Q196069","Q158980","Q321330","Q192491","Q148312","Q16235643","Q331926","Q355807","Q125410","Q342303","Q126279","Q353013","Q356457","Q24050378","Q296410","Q16911979","Q276379","Q212617","Q116602","Q213459",
+  "Q208425","Q166263","Q2067092","Q219167","Q219158","Q294749","Q378297","Q135314","Q175989","Q1191188","Q310620","Q240456","Q311163","Q311344","Q311370","Q311377","Q312039","Q192986","Q313207","Q313610",
+  "Q211120","Q6734350","Q631125","Q435749","Q439302","Q276358","Q294387","Q296992","Q2715111","Q310733","Q311334","Q311659","Q312091","Q312512","Q313170","Q311335","Q315043","Q315459","Q318520","Q316501",
+  "Q331908","Q334619","Q337617","Q342350","Q342406","Q342703","Q444453","Q73082","Q215824","Q350107","Q201860","Q163974","Q168029","Q175303","Q184586","Q185115","Q187891","Q188746","Q193488","Q151034",
+  "Q152286","Q470751","Q359392","Q363608","Q128840","Q208557","Q208706","Q84272","Q214117","Q214891","Q373211","Q59194","Q59192","Q218394","Q218401","Q77863","Q60595","Q5134192","Q10553748","Q795451",
+  "Q439282","Q467034","Q202237","Q202410","Q201394","Q208700","Q208933","Q276178","Q215358","Q215431","Q297845","Q221233","Q213134","Q182685","Q310700","Q311324","Q311983","Q311968","Q311990","Q185081",
+  "Q313148","Q314366","Q314879","Q316917","Q187989","Q276306","Q316619","Q147896","Q192825","Q16239542","Q444814","Q187238","Q461284","Q356404","Q350807","Q53652291","Q529013","Q528983","Q946457","Q70564",
+  "Q442472","Q347603","Q346694","Q350802","Q353623","Q1354322","Q191885","Q442457","Q443684","Q445796","Q1378371","Q149933","Q450725","Q150207","Q455611","Q218165","Q342608","Q343965","Q13488","Q201367",
+  "Q126640","Q39444","Q266507","Q362848","Q314376","Q155604","Q207399","Q275415","Q276434","Q483309","Q373547","Q1921","Q1923","Q215040","Q433125","Q19367","Q1982869","Q219771","Q220746","Q53798193",
+  "Q172720","Q2604671","Q227053","Q2089098","Q298338","Q180968","Q122346","Q27649","Q309778","Q311155","Q312520","Q313164","Q314028","Q318530","Q981355","Q630170","Q68060","Q685385","Q6552885","Q350721",
+  "Q150238","Q11966","Q259801","Q342599","Q342694","Q350738","Q355820","Q360315","Q1883","Q1909","Q44689","Q1918","Q1924","Q342707","Q1931","Q438081","Q375800","Q376247","Q382269","Q120156",
+  "Q296222","Q244894","Q299383","Q299727","Q183210","Q310548","Q312928","Q313142","Q313155","Q317004","Q317079","Q317322","Q191080","Q436247","Q603051","Q516921","Q664053","Q312534","Q55055451","Q708323",
+  "Q440097","Q311925","Q315336","Q195130","Q454261","Q460924","Q296133","Q716166","Q26964668","Q721804","Q614334","Q2978523","Q44815","Q1922","Q1934","Q1935","Q117436","Q1944","Q379805","Q296058",
+  "Q230529","Q13055","Q310730","Q438606","Q312772","Q219768","Q429193","Q13308","Q203451","Q146907","Q311554","Q313753","Q147111","Q193717","Q331914","Q311087","Q259247","Q342439","Q60596","Q309662",
+  "Q466127","Q358075","Q360753","Q484384","Q370568","Q299435","Q44513","Q504393","Q186330","Q219618","Q17560793","Q46951844","Q290637","Q295880","Q180326","Q552597","Q2724855","Q183967","Q310255","Q312377",
+  "Q242193","Q313544","Q186071","Q439185","Q443338","Q136940","Q122354","Q146119","Q147124","Q152340","Q974644","Q818111","Q1917","Q312897","Q314090","Q317083","Q326445","Q329501","Q449434","Q334484",
+  "Q257251","Q482602","Q31442","Q31792","Q31803","Q3014830","Q311641","Q372451","Q215474","Q22162696","Q169995","Q1572632","Q225254","Q314541","Q47170176","Q72886","Q27794","Q315291","Q317223","Q343997",
+  "Q346402","Q459099","Q465975","Q266282","Q719509","Q273776","Q18765","Q1927","Q154390","Q380365","Q23063190","Q208638","Q147172","Q211547","Q294735","Q312892","Q314736","Q318119","Q431320","Q353258",
+  "Q213091","Q161038","Q331938","Q349379","Q361196","Q361439","Q367851","Q370403","Q372879","Q295883","Q294204","Q294852","Q294963","Q295410","Q296180","Q296684","Q296965","Q296975","Q299488","Q366556",
+  "Q326476","Q310034","Q313082","Q313308","Q314761","Q316692","Q318226","Q336860","Q295315","Q348199","Q359484","Q212223","Q19364","Q189535","Q18124343","Q2144609","Q186415","Q187159","Q187426","Q2296133",
+  "Q201373","Q192565","Q83006","Q130215","Q157584","Q15917247","Q57142","Q164073","Q507190","Q169983","Q3961288","Q3973800","Q519654","Q862120","Q1787955","Q54105","Q476817","Q703661","Q2358664","Q208436",
+  "Q214903","Q284359","Q284473","Q234885","Q251767","Q221798","Q358214","Q314113","Q370395","Q188793","Q371806","Q505800","Q512377","Q382193","Q176119","Q1068786","Q314445","Q316762","Q562337","Q321567",
+  "Q192965","Q194439","Q358329","Q382074","Q356142","Q1839524","Q365934","Q358688","Q221129","Q2058682","Q295512","Q296215","Q3180002","Q299238","Q299360","Q311938","Q311972","Q279673","Q315471","Q187171",
+  "Q316631","Q316772","Q316992","Q318184","Q311368","Q314138","Q342223","Q350270","Q263391","Q354366","Q487459","Q514375","Q47503","Q391628","Q62166","Q62227","Q47487","Q449715","Q456365","Q457527",
+  "Q1027459","Q484909","Q16979983","Q131234","Q212925","Q282990","Q216816","Q286511","Q13418257","Q26069","Q38136","Q11576","Q11584","Q180993","Q124086","Q102027","Q192122","Q193702","Q194461","Q215952",
+  "Q152984","Q485697","Q358309","Q721600","Q367022","Q531814","Q529207","Q620792","Q372326","Q373064","Q545968","Q54084","Q54094","Q350536","Q350823","Q14623217","Q204640","Q115453","Q28861547","Q1988686",
+  "Q110258306","Q18753","Q19560313","Q17508","Q19898898","Q107089","Q17158","Q298140","Q179172","Q182907","Q105681392","Q28842103","Q193221","Q151853","Q125945","Q17500","Q201900","Q332645","Q356399","Q382069",
+  "Q464567","Q367872","Q6698219","Q43729","Q56332606","Q359038","Q313201","Q34658","Q375496","Q50315237","Q50375727","Q381809","Q117312887","Q49704","Q312317","Q313687","Q313682","Q431526","Q94850","Q443770",
+  "Q203684","Q205188","Q16837911","Q2070423","Q178683","Q186478","Q170452","Q192505","Q201776","Q202429","Q294980","Q342480","Q343950","Q10758","Q347710","Q462779","Q350271","Q355830","Q367368","Q128725",
+  "Q210491","Q456164","Q276284","Q161044","Q44097","Q296814","Q3869208","Q221614","Q1573490","Q1573556","Q294293","Q110053","Q298320","Q232789","Q299624","Q2117509","Q312127","Q313158","Q313208","Q313722",
+  "Q313927","Q250093","Q438340","Q442821","Q719197","Q80306","Q951342","Q316457","Q316852","Q317298","Q949938","Q433120","Q436230","Q441639","Q336870","Q125438","Q1413611","Q359494","Q366837","Q75580",
+  "Q210919","Q213002","Q32556","Q217089","Q217389","Q17399584","Q192640","Q171534","Q36305","Q375758","Q227892","Q295438","Q313050","Q381262","Q72802","Q3323347","Q5367516","Q238163","Q80471","Q311619",
+  "Q311586","Q312510","Q313570","Q314670","Q298466","Q310635","Q310671","Q311108","Q312494","Q314322","Q317532","Q204108","Q204450","Q208050","Q17070837","Q212756","Q1925","Q156822","Q217215","Q1989585",
+  "Q167698","Q219389","Q231348","Q234532","Q188983","Q326480","Q193768","Q182459","Q212229","Q76089","Q43926","Q3845710","Q508010","Q444318","Q52876","Q348407","Q1087530","Q195878","Q197697","Q342484",
+  "Q152897","Q153387","Q350988","Q126503","Q353046","Q201896","Q201910","Q371652","Q276544","Q371904","Q311095","Q107051","Q168997","Q171311","Q380059","Q136959","Q179995","Q311578","Q312937","Q316551",
+  "Q318559","Q189716","Q191869","Q980185","Q271882","Q211151","Q213111","Q213546","Q45900","Q62198","Q624","Q67995","Q458683","Q316959","Q190608","Q153002","Q200868","Q202054","Q154478","Q213007",
+  "Q116980","Q20019273","Q2032119","Q182451","Q314083","Q314744","Q315831","Q316467","Q188544","Q188564","Q192031","Q327205","Q443113","Q72904","Q726848","Q446994","Q7357324","Q312176","Q309731","Q309762",
+  "Q312140","Q45766","Q151025","Q207800","Q211048","Q213102","Q163437","Q445541","Q2012626","Q430802","Q193568","Q444378","Q540961","Q312516","Q299779","Q311391","Q312375","Q253348","Q11954","Q456797",
+  "Q350398","Q201825","Q2332984","Q298448","Q180866","Q311956","Q321321","Q154512","Q155440","Q157839","Q158243","Q159622","Q276207","Q160106","Q43682","Q44181","Q44673","Q110486192","Q217384","Q167962",
+  "Q107076","Q169993","Q170150","Q4241680","Q316203","Q437545","Q150484","Q453242","Q151062","Q151278","Q152354","Q152725","Q152940","Q154305","Q154303","Q76753","Q60315","Q60340","Q642850","Q60834",
+  "Q63720","Q279436","Q294467","Q313725","Q315641","Q245295","Q153266","Q66738004","Q39287","Q154397","Q154623","Q472293","Q823064","Q158367","Q193024","Q160795","Q58762","Q165697","Q167294","Q61219",
+  "Q61371","Q531080","Q110523","Q141354","Q75019636","Q691911","Q1356772","Q113245","Q152968","Q356566","Q360056","Q362296","Q366108","Q84435","Q57217","Q76322","Q893814","Q215469","Q60122","Q318563",
+  "Q62403","Q57148","Q310206","Q310612","Q312508","Q315665","Q316222"
+]);
 
 const arg = k => process.argv.includes(k);
 const now = new Date();
-const AUJ = now.toISOString().slice(0,10);           // "2026-07-28"
+const AUJ = now.toISOString().slice(0,10);
 const ANNEE = AUJ.slice(0,4);
 const JOURNAL = `journal-${ANNEE}.jsonl`;
 
-// ── Mercato ? (mois : janv, juin, juil, août) ──
-function enMercato(d){
-  const m = d.getUTCMonth()+1;          // 1..12
-  if (m === 1) return true;             // janvier
-  if (m >= 6 && m <= 8) return true;    // juin-juillet-août
-  return false;
-}
+function enMercato(d){ const m=d.getUTCMonth()+1; return m===1 || (m>=6&&m<=8); }
 
 async function sparql(q){
   const url = SPARQL + "?format=json&query=" + encodeURIComponent(q);
@@ -407,7 +469,8 @@ async function sparql(q){
   return r.json();
 }
 
-// Requête : pour un lot de joueurs, tous les passages (club, début, fin, prêt?), le décès et l'ID Transfermarkt
+// Requête : UNIQUEMENT les passages en CLUB de foot (instance de "club de football" Q476028),
+// avec début/fin/prêt, + décès + ID Transfermarkt.
 function requete(lot){
   const values = lot.map(q => "wd:" + q).join(" ");
   return `
@@ -416,6 +479,7 @@ function requete(lot){
       OPTIONAL {
         ?player p:P54 ?st .
         ?st ps:P54 ?team .
+        ?team wdt:P31/wdt:P279* wd:Q476028 .
         OPTIONAL { ?st pq:P580 ?start . }
         OPTIONAL { ?st pq:P582 ?end . }
         OPTIONAL { ?st pq:P1642 ?loan . }
@@ -426,13 +490,10 @@ function requete(lot){
     }`;
 }
 
-const yr = v => v ? +String(v).slice(0,4) : null;
 const jours = (a,b) => Math.round((new Date(b) - new Date(a)) / 86400000);
 
-// Déduit la situation d'un joueur à partir des lignes SPARQL le concernant
-function deduire(rows){
-  let death = null, tm = null;
-  const spells = [];
+function deduire(rows, qid){
+  let death=null, tm=null; const spells=[];
   for(const b of rows){
     if(b.death && !death) death = String(b.death.value).slice(0,10);
     if(b.tm && !tm) tm = b.tm.value;
@@ -445,69 +506,65 @@ function deduire(rows){
       });
     }
   }
-  // passages "ouverts" = début connu, pas de fin
   const ouverts = spells.filter(s => s.start && !s.end);
-  ouverts.sort((a,b) => (a.start < b.start ? 1 : -1)); // plus récent d'abord
+  ouverts.sort((a,b) => (a.start < b.start ? 1 : -1));
+  const fins = spells.filter(s=>s.end).map(s=>s.end).sort();
+  const derniereFin = fins.length ? fins[fins.length-1] : null;
   const datesDeb = spells.filter(s=>s.start).map(s=>s.start).sort();
   const dernierDebut = datesDeb.length ? datesDeb[datesDeb.length-1] : null;
   const dernierSpell = spells.filter(s=>s.start).sort((a,b)=> a.start<b.start?-1:1).pop() || null;
 
   let statut, club_actuel = "", confiance = "ok";
   if(death){
-    statut = "retraite"; club_actuel = "";
+    statut = "retraite";
   } else if(ouverts.length >= 1){
     statut = "en_activite";
     club_actuel = ouverts[0].club;
-    if(ouverts.length > 1) confiance = "a_verifier"; // plusieurs clubs ouverts = ambigu
+    if(ouverts.length > 1) confiance = "a_verifier";
   } else {
-    statut = "sans_club"; club_actuel = "";
+    const vieux = derniereFin && jours(derniereFin, AUJ) > RETRAITE_MOIS*30;
+    statut = (RETIRED.has(qid) || vieux) ? "retraite" : "sans_club";
   }
 
   const dernier_mouvement = dernierSpell ? {
     type: dernierSpell.loan ? "pret" : "transfert",
-    club: dernierSpell.club,
-    date: dernierSpell.start,
+    club: dernierSpell.club, date: dernierSpell.start,
   } : null;
 
-  // changement très récent → à confirmer à la main
-  if(dernierDebut && jours(dernierDebut, AUJ) <= FRAIS_JOURS_RECENT) confiance = "a_verifier";
+  if(!death && dernierDebut && jours(dernierDebut, AUJ) <= FRAIS_JOURS_RECENT) confiance = "a_verifier";
 
-  return { statut, club_actuel, tm_id: tm || null, dernier_mouvement, confiance, _aucune_donnee: spells.length===0 && !death };
+  return { statut, club_actuel, tm_id: tm||null, dernier_mouvement, confiance, _aucune_donnee: spells.length===0 && !death };
 }
 
-function eligible(fiche){
-  if(fiche.confiance !== "ok") return false;
-  if(fiche.statut === "sans_club") return false;             // situation instable
-  const dm = fiche.dernier_mouvement;
-  if(dm && dm.date && jours(dm.date, AUJ) < GRACE_JOURS) return false; // transfert tout frais
+function eligible(f){
+  if(f.confiance !== "ok") return false;
+  if(f.statut === "sans_club") return false;
+  const dm = f.dernier_mouvement;
+  if(dm && dm.date && jours(dm.date, AUJ) < GRACE_JOURS) return false;
   return true;
 }
 
 async function main(){
-  // état existant
   let reg = {};
-  try {
-    const arr = JSON.parse(await fs.readFile(REGISTRE, "utf8"));
-    for(const f of arr) reg[f.id] = f;
-  } catch { console.log("registre.json absent → création au premier passage."); }
+  try { const arr = JSON.parse(await fs.readFile(REGISTRE, "utf8")); for(const f of arr) reg[f.id]=f; }
+  catch { console.log("registre.json absent → création au premier passage."); }
 
   const merc = enMercato(now) || arg("--full");
-  const jour = now.getUTCDay(); // 0=dim..6=sam
+  const jour = now.getUTCDay();
   const tousQID = Object.keys(JOUEURS);
-  // sélection du jour
   const cibles = merc ? tousQID : tousQID.filter((_,i) => i % 7 === jour);
-  console.log(`${AUJ} — ${merc ? "MERCATO (passe complète)" : "hors mercato (rotation 1/7)"} : ${cibles.length}/${tousQID.length} joueurs à vérifier.`);
+  console.log(`${AUJ} — ${merc ? "MERCATO (passe complète)" : "hors mercato (rotation 1/7)"} : ${cibles.length}/${tousQID.length} joueurs.`);
 
-  const changements = [];   // pour le journal
+  const changements = [];
   let nbChg = 0, nbConflits = 0;
 
   for(let k=0; k<cibles.length; k+=BATCH){
     const lot = cibles.slice(k, k+BATCH);
     let data;
     try { data = await sparql(requete(lot)); }
-    catch(e){ console.log(`  … lot ${k}: ${e.message} — on réessaie`); await sleep(3000); try{ data = await sparql(requete(lot)); }catch(e2){ console.log("  ✗ lot ignoré"); continue; } }
+    catch(e){ console.log(`  … lot ${k}: ${e.message} — on réessaie`); await sleep(3000);
+      try{ data = await sparql(requete(lot)); }catch(e2){ console.log("  ✗ lot ignoré"); continue; } }
 
-    // regrouper les lignes par joueur
     const parJoueur = {};
     for(const b of data.results.bindings){
       const qid = b.player.value.split("/").pop();
@@ -516,29 +573,22 @@ async function main(){
 
     for(const qid of lot){
       const rows = parJoueur[qid] || [];
-      const nouv = deduire(rows);
+      const nouv = deduire(rows, qid);
       const anc = reg[qid] || { id: qid, name: JOUEURS[qid], historique: [] };
 
-      // si Wikidata ne répond rien pour ce joueur, on ne casse pas l'existant : on marque à vérifier
       if(nouv._aucune_donnee && anc.club_actuel){ nouv.statut = anc.statut; nouv.club_actuel = anc.club_actuel; nouv.confiance = "a_verifier"; }
 
-      // comparer champ par champ
-      const champs = ["club_actuel","statut","tm_id"];
       let touche = false;
-      for(const c of champs){
+      for(const c of ["club_actuel","statut","tm_id"]){
         const av = anc[c] ?? null, ap = nouv[c] ?? null;
         if(String(av) !== String(ap)){
           touche = true;
           const ligne = { date: AUJ, id: qid, name: anc.name, champ: c, avant: av, apres: ap, source: "wikidata" };
-          (anc.historique ||= []).push(ligne);
-          changements.push(ligne);
+          (anc.historique ||= []).push(ligne); changements.push(ligne);
         }
       }
-      // dernier mouvement (comparaison souple)
-      const dmAv = JSON.stringify(anc.dernier_mouvement||null), dmAp = JSON.stringify(nouv.dernier_mouvement||null);
-      if(dmAv !== dmAp){ touche = true; }
+      if(JSON.stringify(anc.dernier_mouvement||null) !== JSON.stringify(nouv.dernier_mouvement||null)) touche = true;
 
-      // appliquer
       anc.name = anc.name || JOUEURS[qid];
       anc.club_actuel = nouv.club_actuel;
       anc.statut = nouv.statut;
@@ -552,24 +602,21 @@ async function main(){
       if(touche) nbChg++;
       if(anc.confiance !== "ok") nbConflits++;
     }
-    console.log(`  ✓ ${Math.min(k+BATCH,cibles.length)}/${cibles.length} — ${nbChg} fiche(s) modifiée(s), ${nbConflits} à vérifier`);
+    console.log(`  ✓ ${Math.min(k+BATCH,cibles.length)}/${cibles.length} — ${nbChg} modif(s), ${nbConflits} à vérifier`);
     await sleep(PAUSE);
   }
 
-  // sauvegarde (tableau trié par nom)
   const sortie = Object.values(reg).sort((a,b)=> (a.name||"").localeCompare(b.name||""));
   await fs.writeFile(REGISTRE, JSON.stringify(sortie, null, 1));
   if(changements.length){
-    const bloc = changements.map(l => JSON.stringify(l)).join("\n") + "\n";
-    await fs.appendFile(JOURNAL, bloc);
+    await fs.appendFile(JOURNAL, changements.map(l=>JSON.stringify(l)).join("\n")+"\n");
   }
 
-  const aVerifier = sortie.filter(f=>f.confiance!=="ok").length;
-  const inelig    = sortie.filter(f=>!f.eligible_jour).length;
+  const parStatut = sortie.reduce((a,f)=>(a[f.statut]=(a[f.statut]||0)+1,a),{});
   console.log("\n======================================================");
-  console.log(`Fiches totales : ${sortie.length}`);
-  console.log(`Changements ce passage : ${changements.length} (journalisés dans ${JOURNAL})`);
-  console.log(`À valider à la main : ${aVerifier} · Non éligibles au tirage : ${inelig}`);
+  console.log(`Fiches : ${sortie.length} | statuts :`, parStatut);
+  console.log(`Changements ce passage : ${changements.length} (→ ${JOURNAL})`);
+  console.log(`À valider : ${sortie.filter(f=>f.confiance!=="ok").length} · Éligibles au tirage : ${sortie.filter(f=>f.eligible_jour).length}`);
 }
 
 main();
