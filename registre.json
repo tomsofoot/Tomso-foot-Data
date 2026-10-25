@@ -1049,7 +1049,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q15221199 · TM:204103",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -1103,7 +1103,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q380365 · TM:5655",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -1292,7 +1292,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q356566 · TM:716",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -1895,7 +1895,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18962 · TM:182913",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -2192,7 +2192,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2876432 · TM:80293",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -2345,7 +2345,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350738 · TM:4148",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -2813,7 +2813,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q21171299 · TM:305947",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -3164,7 +3164,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q470415 · TM:53077",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -3209,7 +3209,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q27691 · TM:45335",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -3524,7 +3524,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q620792 · TM:88490",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -4403,10 +4403,28 @@
     "avant": null,
     "apres": "16868",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-10-25",
+    "id": "Q312400",
+    "name": "Alessandro Gamberini",
+    "champ": "club_actuel",
+    "avant": "Associazione Calcio ChievoVerona",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-10-25",
+    "id": "Q312400",
+    "name": "Alessandro Gamberini",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Associazione Calcio ChievoVerona",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "16868",
   "dernier_mouvement": {
    "type": "transfert",
@@ -4415,7 +4433,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312400 · TM:16868",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -4829,7 +4847,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q97404267 · TM:548111",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -5252,7 +5270,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q515938 · TM:66515",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -6089,7 +6107,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q33297140 · TM:534033",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -6134,7 +6152,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q312942 · TM:7781",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -6188,7 +6206,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q49166190 · TM:381950",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -6395,7 +6413,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q151518 · TM:184894",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -6449,7 +6467,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q159622 · TM:335",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -7268,7 +7286,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1380874 · TM:55957",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -7817,7 +7835,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q65948595 · TM:519184",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -8411,7 +8429,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q19116103 · TM:234509",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -9950,7 +9968,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q212223 · TM:7563",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -9995,7 +10013,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q218982 · TM:65237",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -10085,7 +10103,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q27342447 · TM:404839",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -11057,7 +11075,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q63878",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -11336,7 +11354,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q45179405 · TM:503733",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -11480,7 +11498,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2702056 · TM:131275",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -11624,7 +11642,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1922 · TM:5668",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -12416,7 +12434,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q603681 · TM:22141",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -12470,7 +12488,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q213546 · TM:22203",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -12803,7 +12821,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q17465944 · TM:183720",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -12848,7 +12866,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q114826394 · TM:922693",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -13145,7 +13163,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q55956044 · TM:371021",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -13298,7 +13316,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q223138 · TM:33783",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -14279,7 +14297,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312120 · TM:7617",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -14324,7 +14342,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q127499 · TM:59344",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -14576,7 +14594,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q23887767 · TM:386047",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -15071,7 +15089,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q11966 · TM:22388",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -16124,7 +16142,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q152897 · TM:39020",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -17447,7 +17465,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q865680 · TM:34453",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -17951,7 +17969,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q214891 · TM:82215",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -18194,7 +18212,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q20093885 · TM:293194",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -18500,7 +18518,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q241378 · TM:3476",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -18608,7 +18626,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q15477554 · TM:175745",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -18932,7 +18950,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q181921 · TM:36827",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -19076,7 +19094,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q44742 · TM:52947",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -19121,7 +19139,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q135610 · TM:21496",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -19598,7 +19616,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q4241246 · TM:199248",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -19688,7 +19706,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q49561427 · TM:413039",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -19922,7 +19940,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q178683 · TM:5937",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -19976,7 +19994,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q19612578 · TM:320141",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -20093,7 +20111,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q46522 · TM:215118",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -20426,7 +20444,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q29497 · TM:126321",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -20705,7 +20723,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q207806 · TM:3151",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -21317,7 +21335,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350398 · TM:35362",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -21416,7 +21434,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q50600 · TM:4276",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -21470,7 +21488,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q47950 · TM:35773",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -22631,7 +22649,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q5084755 · TM:61819",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -22721,7 +22739,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q31744 · TM:78082",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -22766,7 +22784,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310668 · TM:33478",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -22811,7 +22829,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q296207 · TM:24635",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -24071,7 +24089,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q155884 · TM:916",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -24233,7 +24251,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q21693199 · TM:344381",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -24332,7 +24350,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350976 · TM:98240",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -24503,7 +24521,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q458101 · TM:105521",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -24719,7 +24737,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313161 · TM:40423",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -25079,7 +25097,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q16236859 · TM:182904",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -25196,7 +25214,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q5134192 · TM:241119",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -25295,7 +25313,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q99760796 · TM:568177",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -25907,7 +25925,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q177472 · TM:11367",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -26654,7 +26672,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q11571 · TM:8198",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -26708,7 +26726,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313208 · TM:5783",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -26915,7 +26933,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q331938 · TM:25905",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -27851,7 +27869,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q362181 · TM:4951",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -28103,7 +28121,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q222231 · TM:47082",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -28202,7 +28220,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316854 · TM:63463",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -28256,7 +28274,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q234885 · TM:5856",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -28382,7 +28400,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2350103",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -28850,7 +28868,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316721 · TM:16716",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -28904,7 +28922,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q437322 · TM:3686",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -29273,7 +29291,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q188457 · TM:67063",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -30749,7 +30767,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q343976 · TM:7568",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -30794,7 +30812,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q27801691 · TM:469822",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -31307,7 +31325,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q83006 · TM:7980",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -31505,7 +31523,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q5241591 · TM:173859",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -31595,7 +31613,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q20723878 · TM:344695",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -32306,7 +32324,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q296341 · TM:40205",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -32405,7 +32423,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311641 · TM:7660",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -32450,7 +32468,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q507368 · TM:81396",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -32495,7 +32513,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q246417 · TM:98322",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -32738,7 +32756,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q19882816 · TM:321528",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -32837,7 +32855,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q112170256 · TM:914562",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -34997,7 +35015,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1936 · TM:3966",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -35105,7 +35123,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q250978 · TM:3598",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -35690,7 +35708,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q24084301 · TM:326029",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -35960,7 +35978,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q17612806 · TM:238266",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -36320,7 +36338,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q53652291 · TM:584769",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -36410,7 +36428,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q41259115 · TM:340324",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -36509,7 +36527,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q214204 · TM:50202",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -36851,7 +36869,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q185115 · TM:5758",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -36959,7 +36977,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q153786 · TM:28396",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -37067,7 +37085,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q296058 · TM:5343",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -37220,7 +37238,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q210919 · TM:16731",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -37472,7 +37490,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2268949 · TM:89718",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -37526,7 +37544,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q482955 · TM:3516",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -38039,7 +38057,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q10911",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -38084,7 +38102,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q104762954 · TM:567576",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -38453,7 +38471,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2715111 · TM:22673",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -38516,7 +38534,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q5371332 · TM:184528",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -39263,7 +39281,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q202254 · TM:55709",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -39560,7 +39578,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q14637461 · TM:251106",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -40298,7 +40316,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q823064 · TM:93922",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -41333,7 +41351,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16554916 · TM:296783",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -41945,7 +41963,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q245054 · TM:96754",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -41999,7 +42017,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q102027 · TM:5775",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -42107,7 +42125,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q484384 · TM:33648",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -42260,7 +42278,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q726192 · TM:37499",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -42827,7 +42845,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q136959 · TM:6097",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -43403,7 +43421,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q20204829 · TM:198116",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -43502,7 +43520,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q713501 · TM:85475",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -43592,7 +43610,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q208673 · TM:61887",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -43727,7 +43745,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q794628 · TM:159372",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -43871,7 +43889,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q337639 · TM:52432",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -44996,7 +45014,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q249198 · TM:161011",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -45050,7 +45068,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350547 · TM:21725",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -45212,7 +45230,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q290637 · TM:5281",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -45860,7 +45878,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q204640 · TM:7770",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -46751,7 +46769,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311925 · TM:12134",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -46949,7 +46967,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310369 · TM:8518",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -47588,7 +47606,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q356399 · TM:7598",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -47642,7 +47660,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q25175970 · TM:435338",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -47957,7 +47975,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q193221 · TM:7968",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -48110,7 +48128,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q476817 · TM:103222",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -48623,7 +48641,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q191855 · TM:3291",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -49568,7 +49586,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q443338 · TM:7599",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -49730,7 +49748,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q204230 · TM:3374",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -49874,7 +49892,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18617137 · TM:341705",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -49928,7 +49946,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q208025 · TM:33481",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -50855,7 +50873,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q562337 · TM:44674",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -51188,7 +51206,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q111672750 · TM:742201",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -51287,7 +51305,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q221216 · TM:19104",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -51962,7 +51980,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q558820 · TM:103310",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -52106,7 +52124,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342303 · TM:13412",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -52205,7 +52223,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q13488 · TM:3910",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -52358,7 +52376,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1354322 · TM:45184",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -52808,7 +52826,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q301689 · TM:23086",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -53141,7 +53159,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q287841 · TM:79355",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -53564,7 +53582,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q283762 · TM:109256",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -53708,7 +53726,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q204429 · TM:3241",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -53888,7 +53906,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q27974879 · TM:398065",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -54212,7 +54230,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313936 · TM:42234",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -55688,7 +55706,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q658140 · TM:71570",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -55733,7 +55751,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q69495231 · TM:485585",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -55841,7 +55859,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q165014 · TM:15760",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -56588,7 +56606,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q100300095 · TM:709969",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -56930,7 +56948,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q317083 · TM:16951",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -57038,7 +57056,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q14946538 · TM:206225",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -57092,7 +57110,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q13409790 · TM:245805",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -57200,7 +57218,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1347269 · TM:174915",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -57713,7 +57731,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q296975 · TM:7514",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -58055,7 +58073,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q314083 · TM:39799",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -58145,7 +58163,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q6097699 · TM:34553",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -58190,7 +58208,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18165034 · TM:160482",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -58442,7 +58460,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q16056053 · TM:203460",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -58685,7 +58703,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q356142 · TM:74418",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -60332,7 +60350,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q209650 · TM:4675",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -60440,7 +60458,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q70780349 · TM:661053",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -60755,7 +60773,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310330 · TM:36350",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -60818,7 +60836,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q201752 · TM:44017",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -61511,7 +61529,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q298327 · TM:52111",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -61808,7 +61826,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q56223972 · TM:605184",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -62114,7 +62132,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q195682 · TM:88721",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -62303,7 +62321,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q24007299 · TM:422355",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -62438,7 +62456,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q67198835 · TM:484547",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -62645,7 +62663,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q436247 · TM:23960",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -63104,7 +63122,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q27649 · TM:5300",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -63158,7 +63176,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q190651 · TM:3209",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -63716,7 +63734,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342312 · TM:18909",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -63824,7 +63842,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q454196 · TM:15581",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -64013,7 +64031,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q110258306 · TM:561613",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -64418,7 +64436,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16236952 · TM:257455",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -64463,7 +64481,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q64005114 · TM:626724",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -64571,7 +64589,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q294204 · TM:7663",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -64715,7 +64733,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313250 · TM:51452",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -64814,7 +64832,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q184946 · TM:3876",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -65417,7 +65435,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q215770 · TM:34561",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -65471,7 +65489,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q169995 · TM:2713",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -66083,7 +66101,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q247312 · TM:29712",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -66542,7 +66560,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q208087 · TM:26443",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -67190,7 +67208,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q161041 · TM:24637",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -67235,7 +67253,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q14640027 · TM:196357",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -67874,7 +67892,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q722348 · TM:164771",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -68243,7 +68261,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311095 · TM:7491",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -68288,7 +68306,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q3810078 · TM:102017",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -69269,7 +69287,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1573490 · TM:109038",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -69512,7 +69530,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q147896 · TM:3270",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -69980,7 +69998,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q208619 · TM:39378",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -70034,7 +70052,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q19367 · TM:126719",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -70448,7 +70466,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q168740 · TM:44068",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -70655,7 +70673,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q220746 · TM:7925",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -71240,7 +71258,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q237561 · TM:7829",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -71447,7 +71465,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q297397 · TM:6006",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -71942,7 +71960,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q31760 · TM:20410",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -71996,7 +72014,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q319164 · TM:7335",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -73544,7 +73562,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q443113 · TM:43760",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -73787,7 +73805,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1740190 · TM:53418",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -74093,7 +74111,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310548 · TM:68864",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -74660,7 +74678,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q40604 · TM:44792",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -74705,7 +74723,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q309728 · TM:3548",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -74768,7 +74786,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q19888012 · TM:300716",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -75119,7 +75137,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q214124 · TM:3730",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -75893,7 +75911,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312534 · TM:34944",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -76802,7 +76820,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q42416276",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -76910,7 +76928,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q454220 · TM:3316",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -76964,7 +76982,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q21484126 · TM:406625",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -77252,7 +77270,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q314770 · TM:5945",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -77297,7 +77315,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q630170 · TM:166237",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -77981,7 +77999,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q276178 · TM:3620",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -78269,7 +78287,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16499882 · TM:192565",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -78368,7 +78386,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q107766903 · TM:614258",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -78818,7 +78836,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q180326 · TM:3521",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -80636,7 +80654,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312886 · TM:77100",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -81059,7 +81077,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q20641574 · TM:353948",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -81203,7 +81221,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q503165 · TM:7133",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -81257,7 +81275,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q354366 · TM:7978",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -81356,7 +81374,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q156822 · TM:77",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -81518,7 +81536,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q257251 · TM:12106",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -81716,7 +81734,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316631 · TM:27489",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -82103,7 +82121,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q28131394 · TM:457931",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -82454,7 +82472,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q134976 · TM:15185",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -82733,7 +82751,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q93563 · TM:183288",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -83003,7 +83021,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q182685 · TM:4311",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -83255,7 +83273,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q17659996 · TM:191422",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -83813,7 +83831,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q129816 · TM:112343",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -84317,7 +84335,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q110523 · TM:1073",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -84380,7 +84398,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q21013664 · TM:277118",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -84425,7 +84443,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q23899393 · TM:265088",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -84470,7 +84488,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q107365 · TM:17259",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -84560,7 +84578,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q27960175 · TM:476701",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -84749,7 +84767,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311377 · TM:61560",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -85127,7 +85145,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q110220404 · TM:844637",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -85172,7 +85190,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q26708753 · TM:336869",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -85460,7 +85478,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q38136 · TM:44501",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -85568,7 +85586,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q366108 · TM:586",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -85847,7 +85865,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q295438 · TM:3415",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -85901,7 +85919,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316551 · TM:5767",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -85946,7 +85964,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q65159598 · TM:465955",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -85991,7 +86009,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q319879 · TM:129358",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -86387,7 +86405,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q343997 · TM:6242",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -86495,7 +86513,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q250093 · TM:5961",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -86648,7 +86666,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q28692516 · TM:156990",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -87323,7 +87341,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q194439 · TM:7840",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -87656,7 +87674,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q19903718 · TM:318528",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -88160,7 +88178,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q512377 · TM:73250",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -88610,7 +88628,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q370403 · TM:37337",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -88853,7 +88871,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q213124 · TM:21750",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -88961,7 +88979,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q159057 · TM:3357",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -90365,7 +90383,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q192913 · TM:24180",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -90419,7 +90437,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q84435 · TM:568",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -91949,7 +91967,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18128628 · TM:250478",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -92309,7 +92327,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q6789694 · TM:165895",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -92516,7 +92534,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q201837 · TM:3273",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -93164,7 +93182,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2332984 · TM:106109",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -93470,7 +93488,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342480 · TM:6447",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -93695,7 +93713,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q429193 · TM:60542",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -94325,7 +94343,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q6809376 · TM:118303",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -95162,7 +95180,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q80712 · TM:118534",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -95216,7 +95234,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q315301 · TM:38100",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -95747,7 +95765,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q216816 · TM:7515",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -96440,7 +96458,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q314248 · TM:45305",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -96872,7 +96890,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342497 · TM:33823",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -97070,7 +97088,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q530033 · TM:24661",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -97223,7 +97241,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q321330 · TM:28336",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -97331,7 +97349,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342406 · TM:3261",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -97376,7 +97394,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q6860599 · TM:160285",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -98042,7 +98060,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q294467 · TM:2874",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -98951,7 +98969,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q61598452 · TM:503743",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -98996,7 +99014,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q6911830 · TM:174094",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -99050,7 +99068,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1361462 · TM:56818",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -99293,7 +99311,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q15358470 · TM:229004",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -99347,7 +99365,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q51855361 · TM:395516",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -100121,7 +100139,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q17325280 · TM:302215",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -100364,7 +100382,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350335 · TM:23892",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -101174,7 +101192,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q188544 · TM:5800",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -102515,7 +102533,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q195324 · TM:136111",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -102956,7 +102974,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q182063 · TM:54781",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -103478,7 +103496,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q84272 · TM:16746",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -103532,7 +103550,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311368 · TM:36371",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -103622,7 +103640,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q17501875 · TM:293200",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -103739,7 +103757,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350412 · TM:24480",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -104108,7 +104126,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q456617 · TM:70934",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -104198,7 +104216,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q3808761 · TM:205054",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -104279,7 +104297,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q62657 · TM:111819",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -104639,7 +104657,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q599675 · TM:3133",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -104729,7 +104747,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q91531 · TM:124419",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -104945,7 +104963,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q444318 · TM:5791",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -105098,7 +105116,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313682 · TM:7916",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -105197,7 +105215,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q39287 · TM:2150",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -105404,7 +105422,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q314879 · TM:3572",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -105503,7 +105521,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q331914 · TM:5438",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -105629,7 +105647,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16911979 · TM:324358",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -105809,7 +105827,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q194769 · TM:121404",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -106088,7 +106106,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q179457 · TM:16408",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -106367,7 +106385,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q102292155 · TM:331505",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -106628,7 +106646,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q437545 · TM:201",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -106673,7 +106691,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q53280628 · TM:361260",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -106772,7 +106790,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q371305 · TM:73786",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -106925,7 +106943,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q279673 · TM:7737",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -107069,7 +107087,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q22694710 · TM:251876",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -107123,7 +107141,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q7121685 · TM:210178",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -107312,7 +107330,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q111097366 · TM:720038",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -107618,7 +107636,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316573 · TM:44709",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -107717,7 +107735,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313753 · TM:5485",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -108167,7 +108185,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q276358 · TM:18875",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -108212,7 +108230,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350502 · TM:3914",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -108311,7 +108329,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1916 · TM:5285",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -108365,7 +108383,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q326181 · TM:183334",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -108878,7 +108896,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q7150395 · TM:170321",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -109499,7 +109517,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q211126 · TM:3230",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -110543,7 +110561,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311329 · TM:12516",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -110849,7 +110867,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q206641 · TM:117996",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -110993,7 +111011,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q116067 · TM:2895",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -111227,7 +111245,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311872 · TM:80444",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -111281,7 +111299,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1917 · TM:5422",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -112316,7 +112334,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q147124 · TM:4829",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -112694,7 +112712,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q189184 · TM:61892",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -112892,7 +112910,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q30055335 · TM:357164",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -112946,7 +112964,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q186330 · TM:2904",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -113090,7 +113108,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q163974 · TM:4192",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -113135,7 +113153,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q357650 · TM:176514",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -113234,7 +113252,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q458302 · TM:26669",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -113981,7 +113999,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q122583363 · TM:935245",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -114494,7 +114512,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q39076401 · TM:472423",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -114539,7 +114557,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1343384 · TM:23365",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -114638,7 +114656,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q64606160 · TM:627226",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -115196,7 +115214,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18637686 · TM:308278",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -115304,7 +115322,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q72886 · TM:13833",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -115358,7 +115376,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q570811 · TM:9828",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -116132,7 +116150,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q511720 · TM:49655",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -116897,7 +116915,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350799 · TM:3797",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -117824,7 +117842,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q93504 · TM:112302",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -118175,7 +118193,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q58441 · TM:15511",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -118463,7 +118481,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18817134 · TM:354362",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -119543,7 +119561,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q39444 · TM:3373",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -119876,7 +119894,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q258824 · TM:3534",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -119930,7 +119948,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q152725 · TM:3994",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -120353,7 +120371,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q16235035 · TM:85383",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -120812,7 +120830,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q45626 · TM:3407",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -120857,7 +120875,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q314395 · TM:77826",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -120911,7 +120929,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q184218 · TM:16135",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -121352,7 +121370,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310605 · TM:129688",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -121469,7 +121487,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1883 · TM:5872",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -123422,7 +123440,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q33296979 · TM:552955",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -123755,7 +123773,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q912172 · TM:148928",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -124745,7 +124763,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q60315 · TM:57051",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -124844,7 +124862,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q969529 · TM:102744",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -125132,7 +125150,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q22003119 · TM:377219",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -125780,7 +125798,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q57456989 · TM:361104",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -126104,7 +126122,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312140 · TM:5819",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -126158,7 +126176,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q317298 · TM:7912",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -126563,7 +126581,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312520 · TM:15373",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -126662,7 +126680,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q299244 · TM:75287",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -127067,7 +127085,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q215812 · TM:3146",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -127643,7 +127661,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q391628 · TM:76061",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -127697,7 +127715,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q107742783 · TM:658536",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -128210,7 +128228,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q3961288 · TM:96828",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -128552,7 +128570,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q192923 · TM:34322",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -128597,7 +128615,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350107 · TM:28984",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -128795,7 +128813,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q7599020 · TM:192735",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -128840,7 +128858,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q13054 · TM:3569",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -130262,7 +130280,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q362848 · TM:19857",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -130361,7 +130379,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1924 · TM:23951",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -130523,7 +130541,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q26192 · TM:121280",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -131306,7 +131324,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q375487 · TM:3806",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -131774,7 +131792,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q42336731 · TM:387234",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -132071,7 +132089,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q11557367 · TM:245744",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -132215,7 +132233,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q351463 · TM:264",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -132584,7 +132602,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316501 · TM:4741",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -132629,7 +132647,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q304901 · TM:65233",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -132719,7 +132737,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q23703372 · TM:339808",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -133520,7 +133538,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q15081905 · TM:205562",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -133565,7 +133583,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2036160 · TM:100986",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -133745,7 +133763,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q15963873 · TM:230784",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -135005,7 +135023,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q445796",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -135059,7 +135077,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q128840 · TM:42710",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -135104,7 +135122,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q599963 · TM:121279",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -135203,7 +135221,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18982 · TM:157368",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -135644,7 +135662,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q221129 · TM:325",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -136715,7 +136733,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312494 · TM:3381",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -137057,7 +137075,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q51133356 · TM:522784",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -137435,7 +137453,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q201776 · TM:24977",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -137534,7 +137552,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q15620192 · TM:256267",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -137795,7 +137813,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311990 · TM:39532",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -138587,7 +138605,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q299624 · TM:5939",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -139631,7 +139649,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q23559699 · TM:193004",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -140189,7 +140207,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q20716703 · TM:381362",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -140459,7 +140477,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q713711 · TM:145988",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": false
  },
  {
@@ -140801,7 +140819,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q87767569 · TM:661171",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -141512,7 +141530,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350466 · TM:34564",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -142268,7 +142286,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16648816 · TM:289446",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -142556,7 +142574,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2517101 · TM:50477",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -142709,7 +142727,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q15401668 · TM:230541",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -142871,7 +142889,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q299238 · TM:9841",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -143141,7 +143159,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q266873",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -143681,7 +143699,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q115859 · TM:25441",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
@@ -144140,7 +144158,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q318722 · TM:9621",
-  "verifie_le": "2026-10-18",
+  "verifie_le": "2026-10-25",
   "eligible_jour": true
  },
  {
