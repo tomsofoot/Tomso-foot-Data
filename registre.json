@@ -752,7 +752,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q26932598 · TM:398073",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -1364,7 +1364,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1909 · TM:51118",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -1571,7 +1571,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q359484 · TM:9536",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -1724,7 +1724,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q370348 · TM:73782",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -2522,19 +2522,37 @@
     "avant": "en_activite",
     "apres": "retraite",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q445477",
+    "name": "Alaixys Romao",
+    "champ": "club_actuel",
+    "avant": "",
+    "apres": "Six-Fours-Le Brusc Foot",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q445477",
+    "name": "Alaixys Romao",
+    "champ": "statut",
+    "avant": "retraite",
+    "apres": "en_activite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "",
-  "statut": "retraite",
+  "club_actuel": "Six-Fours-Le Brusc Foot",
+  "statut": "en_activite",
   "tm_id": "40014",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Athens Kallithéa",
-   "date": "2023-01-01"
+   "club": "Six-Fours-Le Brusc Foot",
+   "date": "2025-07-16"
   },
   "confiance": "ok",
   "source": "wikidata:Q445477 · TM:40014",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -2657,10 +2675,28 @@
     "avant": null,
     "apres": "3768",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q216614",
+    "name": "Alan Smith",
+    "champ": "club_actuel",
+    "avant": "Notts County FC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q216614",
+    "name": "Alan Smith",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Notts County FC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "3768",
   "dernier_mouvement": {
    "type": "transfert",
@@ -2669,7 +2705,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q216614 · TM:3768",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -2813,7 +2849,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2673319 · TM:83430",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -2867,7 +2903,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q459099 · TM:7521",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -3083,7 +3119,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q215435 · TM:7373",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -3227,7 +3263,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q191151 · TM:5957",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -3488,7 +3524,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q114413 · TM:68306",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -3542,7 +3578,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q371652 · TM:49275",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -4532,7 +4568,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1378371 · TM:130365",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -4790,19 +4826,28 @@
     "avant": null,
     "apres": "118397",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q16528455",
+    "name": "Alessandro Schöpf",
+    "champ": "club_actuel",
+    "avant": "Wolfsberger AC",
+    "apres": "LASK",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Wolfsberger AC",
+  "club_actuel": "LASK",
   "statut": "en_activite",
   "tm_id": "118397",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Wolfsberger AC",
-   "date": "2025-01-01"
+   "club": "LASK",
+   "date": "2026-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q16528455 · TM:118397",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -4910,7 +4955,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q795017 · TM:197747",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -5198,7 +5243,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q21622039 · TM:240414",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -5243,7 +5288,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q194149 · TM:143424",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -5297,7 +5342,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q216142 · TM:15420",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -5342,7 +5387,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q551192 · TM:79960",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -5837,7 +5882,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q13784739 · TM:238407",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -5891,7 +5936,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q453242 · TM:227",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -5999,7 +6044,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q13306 · TM:93720",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -6260,7 +6305,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q375295 · TM:5379",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -7691,7 +7736,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q19948076 · TM:280730",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -7731,12 +7776,12 @@
   "tm_id": "54859",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Cerro Porteño",
-   "date": "2016-01-01"
+   "club": "Estudiantes de Mérida",
+   "date": "2021-02-09"
   },
   "confiance": "ok",
   "source": "wikidata:Q214898 · TM:54859",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -7838,13 +7883,13 @@
   "statut": "retraite",
   "tm_id": "57515",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Futebol Clube do Porto",
-   "date": "2015-01-01"
+   "type": "transfert",
+   "club": "Lamphun Warrior F.C.",
+   "date": "2025-07-04"
   },
   "confiance": "ok",
   "source": "wikidata:Q18881 · TM:57515",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -8204,7 +8249,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q460512 · TM:5428",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -8282,19 +8327,28 @@
     "avant": null,
     "apres": "418659",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q30045780",
+    "name": "Amine Gouiri",
+    "champ": "club_actuel",
+    "avant": "OGC Nice",
+    "apres": "Olympique de Marseille",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "OGC Nice",
+  "club_actuel": "Olympique de Marseille",
   "statut": "en_activite",
   "tm_id": "418659",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "OGC Nice",
-   "date": "2020-01-01"
+   "club": "Olympique de Marseille",
+   "date": "2025-01-31"
   },
   "confiance": "ok",
   "source": "wikidata:Q30045780 · TM:418659",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -8384,7 +8438,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q105203860 · TM:491296",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -8987,7 +9041,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q107051 · TM:7109",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -10157,7 +10211,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q19364 · TM:20506",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -10859,7 +10913,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q10855654 · TM:266807",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -11522,19 +11576,37 @@
     "avant": "sans_club",
     "apres": "retraite",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q16837911",
+    "name": "Ante Ćorić",
+    "champ": "club_actuel",
+    "avant": "",
+    "apres": "Hamrun Spartans Football Club",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q16837911",
+    "name": "Ante Ćorić",
+    "champ": "statut",
+    "avant": "retraite",
+    "apres": "en_activite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "",
-  "statut": "retraite",
+  "club_actuel": "Hamrun Spartans Football Club",
+  "statut": "en_activite",
   "tm_id": "96630",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "FC Zurich",
-   "date": "2021-08-01"
+   "type": "transfert",
+   "club": "Hamrun Spartans Football Club",
+   "date": "2026-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q16837911 · TM:96630",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -11732,7 +11804,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q128895 · TM:4217",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -12146,7 +12218,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q363303 · TM:15844",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -12335,7 +12407,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q35778151 · TM:349701",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -12974,7 +13046,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q321567 · TM:27924",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -14225,7 +14297,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q39667548 · TM:362842",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -15089,7 +15161,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q151838 · TM:35047",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -15242,7 +15314,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q3855340 · TM:176553",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -16046,13 +16118,13 @@
   "statut": "en_activite",
   "tm_id": "209781",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Cardiff City F.C.",
-   "date": "2019-01-18"
+   "type": "transfert",
+   "club": "Macclesfield Town Football Club",
+   "date": "2023-11-23"
   },
   "confiance": "ok",
   "source": "wikidata:Q3637067 · TM:209781",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -16205,7 +16277,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q21621029 · TM:316125",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -16304,7 +16376,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q110739094 · TM:719673",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -16403,7 +16475,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q20829745 · TM:343475",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -16745,7 +16817,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2070900 · TM:127181",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -16790,7 +16862,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2896171 · TM:157495",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -16925,7 +16997,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q65950315 · TM:627442",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -17249,7 +17321,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q317079 · TM:5645",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -17366,7 +17438,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q355820 · TM:5406",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -17564,7 +17636,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q471641 · TM:5851",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -17798,7 +17870,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q180866 · TM:65220",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -18320,7 +18392,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q179172 · TM:44675",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -19805,7 +19877,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q266436 · TM:64308",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -20048,7 +20120,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q508075 · TM:147396",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -21146,7 +21218,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q361035 · TM:22130",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -21179,19 +21251,28 @@
     "avant": null,
     "apres": "284854",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q21546191",
+    "name": "Carles Aleñá",
+    "champ": "club_actuel",
+    "avant": "Getafe CF",
+    "apres": "Deportivo Alavés",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Getafe CF",
+  "club_actuel": "Deportivo Alavés",
   "statut": "en_activite",
   "tm_id": "284854",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Getafe CF",
-   "date": "2021-07-01"
+   "club": "Deportivo Alavés",
+   "date": "2025-07-24"
   },
   "confiance": "ok",
   "source": "wikidata:Q21546191 · TM:284854",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -21236,7 +21317,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q5041170 · TM:127987",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -21641,7 +21722,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q213091 · TM:15829",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -22478,7 +22559,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1931 · TM:5308",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -22577,7 +22658,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312354 · TM:3153",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -23099,7 +23180,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q299403 · TM:5470",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -23621,7 +23702,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q470751 · TM:43853",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -23774,7 +23855,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q60839691 · TM:578539",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -24134,7 +24215,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q210491 · TM:4314",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -24251,7 +24332,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q294951 · TM:69633",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -24284,19 +24365,37 @@
     "avant": null,
     "apres": "19112",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q61230",
+    "name": "Christian Gentner",
+    "champ": "club_actuel",
+    "avant": "VfB Stuttgart",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q61230",
+    "name": "Christian Gentner",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "VfB Stuttgart",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "19112",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "VfB Stuttgart",
-   "date": "2010-01-01"
+   "club": "FC Lucerne",
+   "date": "2021-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q61230 · TM:19112",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -24611,7 +24710,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q22279773 · TM:315779",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -24665,7 +24764,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q60122 · TM:38440",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -24827,7 +24926,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q152984 · TM:123",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -24986,20 +25085,38 @@
     "avant": "en_activite",
     "apres": "sans_club",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q13467456",
+    "name": "Chuba Akpom",
+    "champ": "club_actuel",
+    "avant": "",
+    "apres": "Ipswich Town FC",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q13467456",
+    "name": "Chuba Akpom",
+    "champ": "statut",
+    "avant": "sans_club",
+    "apres": "en_activite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "",
-  "statut": "sans_club",
+  "club_actuel": "Ipswich Town FC",
+  "statut": "en_activite",
   "tm_id": "197642",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Ajax Amsterdam",
-   "date": "2023-01-01"
+   "club": "Ipswich Town FC",
+   "date": "2026-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q13467456 · TM:197642",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": false
+  "verifie_le": "2026-11-17",
+  "eligible_jour": true
  },
  {
   "id": "Q350976",
@@ -25754,7 +25871,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q195130 · TM:72479",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -25853,7 +25970,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q201860 · TM:27577",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -26159,7 +26276,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q44737408 · TM:488362",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -27059,7 +27176,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q54055 · TM:141834",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -27617,7 +27734,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q20039495 · TM:356141",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -27977,7 +28094,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q5213217 · TM:134270",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -28784,19 +28901,28 @@
     "avant": null,
     "apres": "28285",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q311947",
+    "name": "Daniel Pacheco",
+    "champ": "club_actuel",
+    "avant": "Deportivo Alavés",
+    "apres": "Wisła Płock",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Deportivo Alavés",
+  "club_actuel": "Wisła Płock",
   "statut": "en_activite",
   "tm_id": "28285",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Deportivo Alavés",
-   "date": "2015-01-01"
+   "type": "transfert",
+   "club": "Wisła Płock",
+   "date": "2024-07-16"
   },
   "confiance": "ok",
   "source": "wikidata:Q311947 · TM:28285",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -29408,7 +29534,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18124343 · TM:273438",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -29543,7 +29669,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q766289 · TM:141050",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -30308,7 +30434,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q314865 · TM:3236",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -30416,7 +30542,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313050 · TM:7479",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -30578,7 +30704,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q172792 · TM:3547",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -30632,7 +30758,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q221222 · TM:42413",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -30803,7 +30929,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2447742 · TM:31312",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -30938,7 +31064,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q31981 · TM:59016",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -31550,7 +31676,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q314652 · TM:45304",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -32258,19 +32384,37 @@
     "avant": "sans_club",
     "apres": "retraite",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q20019273",
+    "name": "Davide Calabria",
+    "champ": "club_actuel",
+    "avant": "",
+    "apres": "Panathinaïkós",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q20019273",
+    "name": "Davide Calabria",
+    "champ": "statut",
+    "avant": "retraite",
+    "apres": "en_activite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "",
-  "statut": "retraite",
+  "club_actuel": "Panathinaïkós",
+  "statut": "en_activite",
   "tm_id": "262523",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Bologne FC 1909",
-   "date": "2025-02-03"
+   "type": "transfert",
+   "club": "Panathinaïkós",
+   "date": "2025-08-17"
   },
   "confiance": "ok",
   "source": "wikidata:Q20019273 · TM:262523",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -33017,7 +33161,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q10553748 · TM:207929",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -33539,7 +33683,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q21066260 · TM:334526",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -33836,7 +33980,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310660 · TM:14011",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -33989,7 +34133,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q670876 · TM:55980",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -34259,7 +34403,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q122354 · TM:1667",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -34292,19 +34436,37 @@
     "avant": null,
     "apres": "27471",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q314315",
+    "name": "Diego Capel",
+    "champ": "club_actuel",
+    "avant": "Genoa CFC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q314315",
+    "name": "Diego Capel",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Genoa CFC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "27471",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Genoa CFC",
-   "date": "2015-01-01"
+   "club": "Birkirkara Football Club",
+   "date": "2020-01-28"
   },
   "confiance": "ok",
   "source": "wikidata:Q314315 · TM:27471",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -34454,19 +34616,28 @@
     "avant": null,
     "apres": "39717",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q155054",
+    "name": "Diego Contento",
+    "champ": "club_actuel",
+    "avant": "Girondins de Bordeaux",
+    "apres": "FC Aschheim",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Girondins de Bordeaux",
+  "club_actuel": "FC Aschheim",
   "statut": "en_activite",
   "tm_id": "39717",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Girondins de Bordeaux",
-   "date": "2014-01-01"
+   "club": "FC Aschheim",
+   "date": "2023-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q155054 · TM:39717",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -34553,20 +34724,38 @@
     "avant": null,
     "apres": "82070",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q583274",
+    "name": "Diego Demme",
+    "champ": "club_actuel",
+    "avant": "Società Sportiva Calcio Napoli",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q583274",
+    "name": "Diego Demme",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "sans_club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Società Sportiva Calcio Napoli",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "sans_club",
   "tm_id": "82070",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Società Sportiva Calcio Napoli",
-   "date": "2020-01-11"
+   "club": "Hertha BSC",
+   "date": "2024-07-06"
   },
   "confiance": "ok",
   "source": "wikidata:Q583274 · TM:82070",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": true
+  "verifie_le": "2026-11-17",
+  "eligible_jour": false
  },
  {
   "id": "Q261534",
@@ -34673,7 +34862,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q214903 · TM:54928",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -34889,7 +35078,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q373547 · TM:13829",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -35360,13 +35549,13 @@
   "statut": "retraite",
   "tm_id": "44624",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Norwich City FC",
-   "date": "2015-01-01"
+   "type": "transfert",
+   "club": "Football Club Noah",
+   "date": "2023-08-14"
   },
   "confiance": "ok",
   "source": "wikidata:Q552597 · TM:44624",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -35528,7 +35717,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q376247 · TM:37647",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -35582,7 +35771,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q192825 · TM:16690",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -35915,7 +36104,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q56222532 · TM:483348",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -36023,7 +36212,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q66737676 · TM:161869",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -36131,7 +36320,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q299383 · TM:3989",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -36464,7 +36653,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q30134278 · TM:451276",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -38795,7 +38984,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q370568 · TM:59938",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -39173,7 +39362,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q5367516 · TM:200056",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -39425,7 +39614,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q210056 · TM:3643",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -39650,7 +39839,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q346735 · TM:272",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -39785,7 +39974,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q351797 · TM:45599",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -39902,7 +40091,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313130 · TM:5755",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -40982,7 +41171,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1935 · TM:5283",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -41576,7 +41765,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q28967995 · TM:418560",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -41621,7 +41810,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q47067481 · TM:335457",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -42278,7 +42467,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q511997 · TM:141655",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -42485,7 +42674,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q510596 · TM:119164",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -43511,7 +43700,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1087530 · TM:16871",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -43619,7 +43808,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q375496 · TM:7606",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -43763,7 +43952,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q468656 · TM:24716",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -44177,7 +44366,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q430802 · TM:61546",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -44330,7 +44519,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q10885",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -44420,7 +44609,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q294293 · TM:21876",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -45149,7 +45338,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q204450 · TM:35537",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -45239,7 +45428,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q23884186 · TM:291417",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -45887,7 +46076,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q42731 · TM:7767",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -46883,20 +47072,38 @@
     "avant": null,
     "apres": "296422",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q35124488",
+    "name": "Fodé Ballo-Touré",
+    "champ": "club_actuel",
+    "avant": "AS Monaco FC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q35124488",
+    "name": "Fodé Ballo-Touré",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "sans_club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "AS Monaco FC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "sans_club",
   "tm_id": "296422",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "AS Monaco FC",
-   "date": "2019-01-10"
+   "club": "FC Metz",
+   "date": "2025-09-03"
   },
   "confiance": "ok",
   "source": "wikidata:Q35124488 · TM:296422",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": true
+  "verifie_le": "2026-11-17",
+  "eligible_jour": false
  },
  {
   "id": "Q101035007",
@@ -47732,7 +47939,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q367022 · TM:7517",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -48200,7 +48407,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q10560 · TM:3134",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -48623,7 +48830,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q61219 · TM:104",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -49163,7 +49370,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q63659 · TM:5555",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -49613,7 +49820,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q26343 · TM:158697",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -50270,7 +50477,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q14824665 · TM:228370",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -50324,7 +50531,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q213095 · TM:20081",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -50414,7 +50621,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q982163 · TM:79377",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -50846,7 +51053,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q356126 · TM:129476",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -50999,7 +51206,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q5550103 · TM:177467",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -52538,7 +52745,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q21031698",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -52841,19 +53048,28 @@
     "avant": null,
     "apres": "242632",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q11860513",
+    "name": "Glen Kamara",
+    "champ": "club_actuel",
+    "avant": "Rangers FC",
+    "apres": "QP Rangers",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Rangers FC",
+  "club_actuel": "QP Rangers",
   "statut": "en_activite",
   "tm_id": "242632",
   "dernier_mouvement": {
-   "type": "transfert",
-   "club": "Rangers FC",
-   "date": "2019-01-31"
+   "type": "pret",
+   "club": "QP Rangers",
+   "date": "2026-08-03"
   },
   "confiance": "ok",
   "source": "wikidata:Q11860513 · TM:242632",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -53510,7 +53726,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1362064 · TM:121385",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -53870,7 +54086,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q444453 · TM:15242",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -54104,7 +54320,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313164 · TM:23934",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -54383,7 +54599,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q354919 · TM:1368",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -56219,7 +56435,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q196219 · TM:55735",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -56318,7 +56534,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q214751 · TM:13886",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -56651,7 +56867,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q17633812 · TM:316889",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -57146,7 +57362,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q294963 · TM:3480",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -57443,7 +57659,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q17045723 · TM:282076",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -57560,7 +57776,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342599 · TM:5815",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -57821,7 +58037,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q315653 · TM:67648",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -57854,10 +58070,28 @@
     "avant": null,
     "apres": "70245",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q538897",
+    "name": "Ignasi Miquel",
+    "champ": "club_actuel",
+    "avant": "SD Ponferradina",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q538897",
+    "name": "Ignasi Miquel",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "SD Ponferradina",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "70245",
   "dernier_mouvement": {
    "type": "transfert",
@@ -57866,7 +58100,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q538897 · TM:70245",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -58037,7 +58271,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1027459 · TM:312797",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -58961,19 +59195,37 @@
     "avant": "en_activite",
     "apres": "retraite",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q20740627",
+    "name": "Ismaël Bennacer",
+    "champ": "club_actuel",
+    "avant": "",
+    "apres": "Al-Gharafa Sports Club",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q20740627",
+    "name": "Ismaël Bennacer",
+    "champ": "statut",
+    "avant": "retraite",
+    "apres": "en_activite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "",
-  "statut": "retraite",
+  "club_actuel": "Al-Gharafa Sports Club",
+  "statut": "en_activite",
   "tm_id": "351816",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "AC Milan",
-   "date": "2019-08-04"
+   "club": "Al-Gharafa Sports Club",
+   "date": "2026-09-14"
   },
   "confiance": "ok",
   "source": "wikidata:Q20740627 · TM:351816",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -59207,7 +59459,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q6096043 · TM:149716",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -60026,7 +60278,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q216917 · TM:3557",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -60287,7 +60539,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q296833 · TM:57079",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -60476,7 +60728,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q63228677 · TM:503749",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -60980,7 +61232,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q17517177 · TM:294057",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -61088,7 +61340,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310700 · TM:9956",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -61331,7 +61583,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q557329 · TM:52585",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -61475,7 +61727,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q111627959 · TM:670882",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -61673,7 +61925,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q152340 · TM:1157",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -61727,7 +61979,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313054 · TM:4549",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -61781,7 +62033,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q201394 · TM:33195",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -62384,7 +62636,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q703414 · TM:3710",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -63068,7 +63320,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q164073 · TM:7696",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -64319,7 +64571,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q60530 · TM:5339",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -64409,7 +64661,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q59209505 · TM:486049",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -64787,7 +65039,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q188746 · TM:3875",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -65219,7 +65471,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342387 · TM:3095",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -65273,7 +65525,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q296457 · TM:3137",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -65313,12 +65565,12 @@
   "tm_id": "91885",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "FC Politehnica Iași",
-   "date": "2024-06-01"
+   "club": "CSM Politehnica Iași",
+   "date": "2024-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q59929 · TM:91885",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -65462,7 +65714,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q17987582 · TM:251896",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -65495,20 +65747,38 @@
     "avant": null,
     "apres": "146258",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q296194",
+    "name": "Jetro Willems",
+    "champ": "club_actuel",
+    "avant": "Eintracht Francfort",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q296194",
+    "name": "Jetro Willems",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "sans_club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Eintracht Francfort",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "sans_club",
   "tm_id": "146258",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Newcastle United FC",
-   "date": "2019-08-02"
+   "type": "transfert",
+   "club": "NEC Nimègue",
+   "date": "2025-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q296194 · TM:146258",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": true
+  "verifie_le": "2026-11-17",
+  "eligible_jour": false
  },
  {
   "id": "Q64748320",
@@ -65651,7 +65921,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q493184",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -65930,7 +66200,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q188793 · TM:7486",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -66152,20 +66422,29 @@
     "avant": "Al Nasr Riyad",
     "apres": "Al Hilal Omdurman",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q27049064",
+    "name": "João Félix",
+    "champ": "club_actuel",
+    "avant": "Al Hilal Omdurman",
+    "apres": "Al Nasr Riyad",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Al Hilal Omdurman",
+  "club_actuel": "Al Nasr Riyad",
   "statut": "en_activite",
   "tm_id": "462250",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Al Hilal Omdurman",
-   "date": "2025-07-01"
+   "club": "Al Nasr Riyad",
+   "date": "2025-07-29"
   },
-  "confiance": "ok",
+  "confiance": "a_verifier",
   "source": "wikidata:Q27049064 · TM:462250",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": true
+  "verifie_le": "2026-11-17",
+  "eligible_jour": false
  },
  {
   "id": "Q6298271",
@@ -66227,7 +66506,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q6298271 · TM:149729",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -66371,7 +66650,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q113551733 · TM:670681",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -66684,10 +66963,10 @@
    "club": "BV 09 Borussia Dortmund",
    "date": "2025-01-01"
   },
-  "confiance": "a_verifier",
+  "confiance": "ok",
   "source": "wikidata:Q110483835 · TM:796297",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": false
+  "verifie_le": "2026-11-17",
+  "eligible_jour": true
  },
  {
   "id": "Q313250",
@@ -66947,7 +67226,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q187184 · TM:40204",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -66992,7 +67271,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q47658470 · TM:297212",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -67568,7 +67847,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312176 · TM:4352",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -67676,7 +67955,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q192986 · TM:3570",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -67964,7 +68243,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310730 · TM:5917",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -68310,12 +68589,12 @@
   "tm_id": "5495",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Sivasspor",
-   "date": "2013-01-01"
+   "club": "CS Sedan Ardennes",
+   "date": "2017-07-23"
   },
   "confiance": "ok",
   "source": "wikidata:Q147111 · TM:5495",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -68423,7 +68702,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q203657 · TM:4169",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -68882,7 +69161,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q56085180 · TM:533738",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -69152,7 +69431,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18921387 · TM:292818",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -69521,7 +69800,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q314627 · TM:71292",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -69737,7 +70016,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q367861 · TM:108354",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -69926,7 +70205,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q13014035 · TM:130164",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -70934,7 +71213,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q15396247 · TM:221322",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -71220,10 +71499,10 @@
    "club": "Deportivo LC",
    "date": "2026-09-01"
   },
-  "confiance": "a_verifier",
+  "confiance": "ok",
   "source": "wikidata:Q13634114 · TM:250845",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": false
+  "verifie_le": "2026-11-17",
+  "eligible_jour": true
  },
  {
   "id": "Q15715173",
@@ -71591,7 +71870,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q358214 · TM:7776",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -71888,7 +72167,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q22342392 · TM:293169",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -72338,7 +72617,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q62227 · TM:3856",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -72437,7 +72716,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q372879 · TM:7542",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -72761,7 +73040,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q310620 · TM:3278",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -73517,7 +73796,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q315291 · TM:18093",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -73625,7 +73904,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q182459 · TM:22412",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -73823,7 +74102,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q203451 · TM:5354",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -74270,10 +74549,28 @@
     "avant": null,
     "apres": "33366",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q296780",
+    "name": "Kader Keita",
+    "champ": "club_actuel",
+    "avant": "Persib Maung Bandung",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q296780",
+    "name": "Kader Keita",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Persib Maung Bandung",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "33366",
   "dernier_mouvement": {
    "type": "transfert",
@@ -74282,7 +74579,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q296780 · TM:33366",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -74327,7 +74624,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q27310755 · TM:309400",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -74435,7 +74732,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q192031 · TM:3430",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -75182,7 +75479,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q373211 · TM:4057",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -75755,20 +76052,38 @@
     "avant": null,
     "apres": "37758",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q313580",
+    "name": "Kerlon",
+    "champ": "club_actuel",
+    "avant": "Villa Nova Atlético Clube",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q313580",
+    "name": "Kerlon",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Villa Nova Atlético Clube",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "37758",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Villa Nova Atlético Clube",
-   "date": "2016-01-01"
+   "club": "FC Spartak Trnava",
+   "date": "2017-01-01"
   },
-  "confiance": "a_verifier",
+  "confiance": "ok",
   "source": "wikidata:Q313580 · TM:37758",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": false
+  "verifie_le": "2026-11-17",
+  "eligible_jour": true
  },
  {
   "id": "Q443113",
@@ -76028,7 +76343,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q158367 · TM:44521",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -76298,7 +76613,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316917 · TM:33639",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -76748,7 +77063,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q381378 · TM:3887",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -77252,7 +77567,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q299455 · TM:3118",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -77846,7 +78161,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q276091 · TM:74229",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -77945,7 +78260,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q108200391 · TM:490384",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -78275,19 +78590,28 @@
     "avant": null,
     "apres": "490426",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q29168109",
+    "name": "Krépin Diatta",
+    "champ": "club_actuel",
+    "avant": "AS Monaco FC",
+    "apres": "Watford Football Club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "AS Monaco FC",
+  "club_actuel": "Watford Football Club",
   "statut": "en_activite",
   "tm_id": "490426",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "AS Monaco FC",
-   "date": "2021-01-01"
+   "club": "Watford Football Club",
+   "date": "2026-01-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q29168109 · TM:490426",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -78818,7 +79142,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q21621995 · TM:342229",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -79562,10 +79886,28 @@
     "avant": "équipe de Curaçao de football",
     "apres": "Aston Villa FC",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q249344",
+    "name": "Leandro Bacuna",
+    "champ": "club_actuel",
+    "avant": "Aston Villa FC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q249344",
+    "name": "Leandro Bacuna",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Aston Villa FC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "126014",
   "dernier_mouvement": {
    "type": "transfert",
@@ -79574,7 +79916,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q249344 · TM:126014",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -79769,20 +80111,29 @@
     "avant": null,
     "apres": "144028",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q6509762",
+    "name": "Leandro Trossard",
+    "champ": "club_actuel",
+    "avant": "Arsenal FC",
+    "apres": "Beşiktaş JK",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Arsenal FC",
+  "club_actuel": "Beşiktaş JK",
   "statut": "en_activite",
   "tm_id": "144028",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Arsenal FC",
-   "date": "2023-01-01"
+   "club": "Beşiktaş JK",
+   "date": "2026-07-15"
   },
-  "confiance": "a_verifier",
+  "confiance": "ok",
   "source": "wikidata:Q6509762 · TM:144028",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": false
+  "verifie_le": "2026-11-17",
+  "eligible_jour": true
  },
  {
   "id": "Q353520",
@@ -79835,7 +80186,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q353520 · TM:3877",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -80474,7 +80825,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q50233588 · TM:575998",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -80915,7 +81266,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q110487162 · TM:670858",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -80948,20 +81299,38 @@
     "avant": null,
     "apres": "55508",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q311246",
+    "name": "Lewis Holtby",
+    "champ": "club_actuel",
+    "avant": "Hambourg SV",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q311246",
+    "name": "Lewis Holtby",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "sans_club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Hambourg SV",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "sans_club",
   "tm_id": "55508",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Hambourg SV",
-   "date": "2015-01-01"
+   "club": "NAC Breda",
+   "date": "2025-08-11"
   },
   "confiance": "ok",
   "source": "wikidata:Q311246 · TM:55508",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": true
+  "verifie_le": "2026-11-17",
+  "eligible_jour": false
  },
  {
   "id": "Q461284",
@@ -81167,7 +81536,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q331926 · TM:4070",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -81428,7 +81797,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q311586 · TM:7499",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -81527,7 +81896,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q30881092 · TM:480762",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -82481,7 +82850,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q440031 · TM:33218",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -82580,7 +82949,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q186478 · TM:5980",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -82688,7 +83057,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q154623 · TM:58516",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -82931,7 +83300,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q98102459 · TM:463600",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -82985,7 +83354,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q72648 · TM:126664",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -83183,7 +83552,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q215358 · TM:3826",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -83525,7 +83894,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16302330 · TM:318077",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -83819,10 +84188,28 @@
     "avant": null,
     "apres": "214316",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q335026",
+    "name": "Luciano Vietto",
+    "champ": "club_actuel",
+    "avant": "Club Atlético de Madrid",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q335026",
+    "name": "Luciano Vietto",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Club Atlético de Madrid",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "214316",
   "dernier_mouvement": {
    "type": "transfert",
@@ -83831,7 +84218,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q335026 · TM:214316",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -85676,7 +86063,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342214 · TM:3438",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -85838,7 +86225,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q177686 · TM:18301",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -86144,7 +86531,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312183 · TM:47713",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -86591,10 +86978,28 @@
     "avant": null,
     "apres": "64484",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q309890",
+    "name": "Manucho Gonçalves",
+    "champ": "club_actuel",
+    "avant": "Rayo Vallecano",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q309890",
+    "name": "Manucho Gonçalves",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Rayo Vallecano",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "64484",
   "dernier_mouvement": {
    "type": "transfert",
@@ -86603,7 +87008,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q309890 · TM:64484",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -87278,7 +87683,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q37282560 · TM:371371",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -87683,7 +88088,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q219248 · TM:3513",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -88767,12 +89172,12 @@
   "tm_id": "16810",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Chelsea FC",
-   "date": "2015-10-08"
+   "club": "L. R. Vicence",
+   "date": "2017-02-27"
   },
   "confiance": "ok",
   "source": "wikidata:Q234866 · TM:16810",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -89453,19 +89858,37 @@
     "avant": null,
     "apres": "30333",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q337646",
+    "name": "Marco Motta",
+    "champ": "club_actuel",
+    "avant": "Charlton Athletic FC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q337646",
+    "name": "Marco Motta",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Charlton Athletic FC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "30333",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Charlton Athletic FC",
-   "date": "2016-01-01"
+   "club": "Persija Jakarta",
+   "date": "2020-01-13"
   },
   "confiance": "ok",
   "source": "wikidata:Q337646 · TM:30333",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -89564,7 +89987,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q152377 · TM:35207",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -89642,10 +90065,28 @@
     "avant": null,
     "apres": "19136",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q240492",
+    "name": "Marco Storari",
+    "champ": "club_actuel",
+    "avant": "Cagliari Calcio",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q240492",
+    "name": "Marco Storari",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Cagliari Calcio",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "19136",
   "dernier_mouvement": {
    "type": "transfert",
@@ -89654,7 +90095,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q240492 · TM:19136",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -89744,7 +90185,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q337623 · TM:102558",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -89933,7 +90374,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q507890 · TM:93176",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -90374,7 +90815,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q201825 · TM:38593",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -90527,7 +90968,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q321321 · TM:35491",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -90572,7 +91013,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q31766 · TM:54155",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -90626,7 +91067,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316992 · TM:22973",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -91112,7 +91553,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q14625183 · TM:205938",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -91215,12 +91656,12 @@
   "tm_id": "87884",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Società Sportiva Calcio Napoli",
-   "date": "2018-01-01"
+   "club": "Forte Virtus FC",
+   "date": "2026-02-26"
   },
   "confiance": "ok",
   "source": "wikidata:Q3869208 · TM:87884",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -91706,7 +92147,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q151853 · TM:3515",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -91955,10 +92396,28 @@
     "avant": null,
     "apres": "95438",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q591443",
+    "name": "Marko Livaja",
+    "champ": "club_actuel",
+    "avant": "Empoli Football Club",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q591443",
+    "name": "Marko Livaja",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Empoli Football Club",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "95438",
   "dernier_mouvement": {
    "type": "transfert",
@@ -91967,7 +92426,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q591443 · TM:95438",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -92228,7 +92687,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q61225 · TM:192",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -92390,7 +92849,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q275169 · TM:39679",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -92435,7 +92894,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q39230 · TM:181767",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -92480,7 +92939,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2440999 · TM:95732",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -92579,7 +93038,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q150947 · TM:2963",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -92864,20 +93323,29 @@
     "avant": null,
     "apres": "68645",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q252596",
+    "name": "Martín Montoya",
+    "champ": "club_actuel",
+    "avant": "Brighton & Hove",
+    "apres": "Betis Balompié",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Brighton & Hove",
+  "club_actuel": "Betis Balompié",
   "statut": "en_activite",
   "tm_id": "68645",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Brighton & Hove",
-   "date": "2018-01-01"
+   "club": "Aris Salonique FC",
+   "date": "2023-08-08"
   },
-  "confiance": "a_verifier",
+  "confiance": "ok",
   "source": "wikidata:Q252596 · TM:68645",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": false
+  "verifie_le": "2026-11-17",
+  "eligible_jour": true
  },
  {
   "id": "Q16902219",
@@ -93182,7 +93650,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q63384759 · TM:423440",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -93371,7 +93839,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1927 · TM:77834",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -93404,20 +93872,38 @@
     "avant": null,
     "apres": "59238",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q691193",
+    "name": "Marwin Hitz",
+    "champ": "club_actuel",
+    "avant": "BV 09 Borussia Dortmund",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q691193",
+    "name": "Marwin Hitz",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "sans_club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "BV 09 Borussia Dortmund",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "sans_club",
   "tm_id": "59238",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "BV 09 Borussia Dortmund",
-   "date": "2018-01-01"
+   "club": "FC Bâle",
+   "date": "2022-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q691193 · TM:59238",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": true
+  "verifie_le": "2026-11-17",
+  "eligible_jour": false
  },
  {
   "id": "Q61986758",
@@ -93461,7 +93947,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q61986758 · TM:532826",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -93758,7 +94244,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q701297 · TM:51471",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -93956,7 +94442,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1587689 · TM:128969",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -94055,7 +94541,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1908 · TM:27306",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -94241,20 +94727,38 @@
     "avant": null,
     "apres": "37918",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q310657",
+    "name": "Matías Fernández",
+    "champ": "club_actuel",
+    "avant": "Colo-Colo",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q310657",
+    "name": "Matías Fernández",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Colo-Colo",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "37918",
   "dernier_mouvement": {
    "type": "transfert",
    "club": "Colo-Colo",
    "date": "2020-01-01"
   },
-  "confiance": "a_verifier",
+  "confiance": "ok",
   "source": "wikidata:Q310657 · TM:37918",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": false
+  "verifie_le": "2026-11-17",
+  "eligible_jour": true
  },
  {
   "id": "Q3559484",
@@ -94286,19 +94790,28 @@
     "avant": null,
     "apres": "240900",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q3559484",
+    "name": "Matías Kranevitter",
+    "champ": "club_actuel",
+    "avant": "Club Atlético de Madrid",
+    "apres": "Racing Club de Avellaneda",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Club Atlético de Madrid",
+  "club_actuel": "Racing Club de Avellaneda",
   "statut": "en_activite",
   "tm_id": "240900",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Club Atlético de Madrid",
-   "date": "2016-01-01"
+   "club": "Racing Club de Avellaneda",
+   "date": "2026-07-06"
   },
   "confiance": "ok",
   "source": "wikidata:Q3559484 · TM:240900",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -94595,7 +95108,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q16236909 · TM:245893",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -95117,7 +95630,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313725 · TM:4429",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -95216,7 +95729,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q731869 · TM:102258",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -97106,7 +97619,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q17070837 · TM:307058",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -97421,7 +97934,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q83488 · TM:35664",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -98195,7 +98708,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q128829 · TM:1397",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -98789,7 +99302,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q69812902 · TM:557459",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -98843,7 +99356,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q294387 · TM:4329",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -98888,7 +99401,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16145667 · TM:272999",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -99833,7 +100346,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q433120 · TM:40633",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -100283,7 +100796,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q110874376 · TM:730861",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -101228,7 +101741,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q466127 · TM:3509",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -101340,12 +101853,12 @@
   "tm_id": "6119",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Shanghai Shenhua FC",
-   "date": "2015-01-01"
+   "club": "Football Club Sochaux-Montbéliard",
+   "date": "2019-01-16"
   },
   "confiance": "ok",
   "source": "wikidata:Q216557 · TM:6119",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -101579,7 +102092,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q27889974 · TM:364135",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -101624,7 +102137,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q87715532 · TM:687626",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -102029,7 +102542,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q55761514 · TM:461496",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -102434,7 +102947,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q28842103 · TM:364240",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -102650,7 +103163,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q113245 · TM:27",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -102881,20 +103394,29 @@
     "avant": null,
     "apres": "42267",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q727417",
+    "name": "Nabil Dirar",
+    "champ": "club_actuel",
+    "avant": "Fenerbahçe Istanbul",
+    "apres": "St. Lucia F.C.",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Fenerbahçe Istanbul",
+  "club_actuel": "St. Lucia F.C.",
   "statut": "en_activite",
   "tm_id": "42267",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Fenerbahçe Istanbul",
-   "date": "2017-07-01"
+   "club": "St. Lucia F.C.",
+   "date": "2026-08-24"
   },
-  "confiance": "ok",
+  "confiance": "a_verifier",
   "source": "wikidata:Q727417 · TM:42267",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": true
+  "verifie_le": "2026-11-17",
+  "eligible_jour": false
  },
  {
   "id": "Q311162",
@@ -103088,19 +103610,37 @@
     "avant": null,
     "apres": "44787",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q314779",
+    "name": "Nacer Barazite",
+    "champ": "club_actuel",
+    "avant": "FC Utrecht",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q314779",
+    "name": "Nacer Barazite",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "FC Utrecht",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "44787",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "FC Utrecht",
-   "date": "2014-01-01"
+   "club": "Buriram United Football Club",
+   "date": "2019-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q314779 · TM:44787",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -103772,10 +104312,28 @@
     "avant": "équipe d'Angleterre espoirs de football",
     "apres": "Chelsea FC",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q10788",
+    "name": "Nathaniel Chalobah",
+    "champ": "club_actuel",
+    "avant": "Chelsea FC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q10788",
+    "name": "Nathaniel Chalobah",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Chelsea FC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "128900",
   "dernier_mouvement": {
    "type": "pret",
@@ -103784,7 +104342,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q10788 · TM:128900",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -104342,7 +104900,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16236874 · TM:273152",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -104486,7 +105044,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q163564 · TM:19726",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -104576,7 +105134,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q203749 · TM:58088",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -104630,7 +105188,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q110486192 · TM:956920",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -105134,7 +105692,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q349962 · TM:13426",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -106871,7 +107429,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q208687 · TM:22750",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -106970,7 +107528,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q560618 · TM:130354",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -107168,7 +107726,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q66801705 · TM:503987",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -107348,7 +107906,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q20745071 · TM:348026",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -107951,7 +108509,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q367872 · TM:8176",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -108104,7 +108662,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18976 · TM:3394",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -109319,7 +109877,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q869214 · TM:73517",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -109823,7 +110381,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q130215 · TM:3411",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -110327,7 +110885,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313927 · TM:37389",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -110360,19 +110918,37 @@
     "avant": null,
     "apres": "56067",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q319890",
+    "name": "Pablo Piatti",
+    "champ": "club_actuel",
+    "avant": "RCD Espanyol",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q319890",
+    "name": "Pablo Piatti",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "RCD Espanyol",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "56067",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "RCD Espanyol",
-   "date": "2017-01-01"
+   "club": "Elche CF",
+   "date": "2021-03-06"
   },
   "confiance": "ok",
   "source": "wikidata:Q319890 · TM:56067",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -110516,7 +111092,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q244790 · TM:20007",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -110657,19 +111233,37 @@
     "avant": null,
     "apres": "19636",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q923206",
+    "name": "Panayótis Koné",
+    "champ": "club_actuel",
+    "avant": "ACF Fiorentina",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q923206",
+    "name": "Panayótis Koné",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "ACF Fiorentina",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "19636",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "ACF Fiorentina",
-   "date": "2016-01-01"
+   "type": "transfert",
+   "club": "Western United Football Club (Melbourne)",
+   "date": "2019-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q923206 · TM:19636",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -110930,7 +111524,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q14327453 · TM:249565",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -111029,7 +111623,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q924134 · TM:3919",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -112730,7 +113324,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q316222 · TM:29579",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -112979,19 +113573,28 @@
     "avant": null,
     "apres": "242273",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q20988104",
+    "name": "Pedro Chirivella",
+    "champ": "club_actuel",
+    "avant": "Football Club de Nantes",
+    "apres": "Panathinaïkós",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Football Club de Nantes",
+  "club_actuel": "Panathinaïkós",
   "statut": "en_activite",
   "tm_id": "242273",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Football Club de Nantes",
-   "date": "2020-01-01"
+   "club": "Panathinaïkós",
+   "date": "2025-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q20988104 · TM:242273",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -113031,12 +113634,12 @@
   "tm_id": "51587",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Club Universidad Nacional",
-   "date": "2016-01-01"
+   "club": "CF Fuenlabrada",
+   "date": "2021-08-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q310007 · TM:51587",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -114113,10 +114716,28 @@
     "avant": null,
     "apres": "40055",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q240008",
+    "name": "Phil Younghusband",
+    "champ": "club_actuel",
+    "avant": "Loyola Meralco Sparks F.C.",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q240008",
+    "name": "Phil Younghusband",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Loyola Meralco Sparks F.C.",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "40055",
   "dernier_mouvement": {
    "type": "transfert",
@@ -114125,7 +114746,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q240008 · TM:40055",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -114800,7 +115421,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q343950 · TM:3329",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -116762,7 +117383,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q204407 · TM:54170",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -117158,7 +117779,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q449715 · TM:58",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -117743,7 +118364,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q377746 · TM:3208",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -118067,7 +118688,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q35039261 · TM:340325",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -118211,7 +118832,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q371215 · TM:27364",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -118292,7 +118913,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q55055451 · TM:476352",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -118451,19 +119072,37 @@
     "avant": null,
     "apres": "73092",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q298491",
+    "name": "Rene Krhin",
+    "champ": "club_actuel",
+    "avant": "Grenade CF",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q298491",
+    "name": "Rene Krhin",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Grenade CF",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "73092",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Grenade CF",
-   "date": "2015-01-01"
+   "club": "Western United Football Club (Melbourne)",
+   "date": "2021-09-27"
   },
   "confiance": "ok",
   "source": "wikidata:Q298491 · TM:73092",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -119261,19 +119900,37 @@
     "avant": null,
     "apres": "88909",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q2856175",
+    "name": "Riccardo Saponara",
+    "champ": "club_actuel",
+    "avant": "Empoli Football Club",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q2856175",
+    "name": "Riccardo Saponara",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Empoli Football Club",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "88909",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Empoli Football Club",
-   "date": "2015-01-01"
+   "club": "Hellas Vérone Football Club",
+   "date": "2023-07-21"
   },
   "confiance": "ok",
   "source": "wikidata:Q2856175 · TM:88909",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -120002,7 +120659,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2067092 · TM:4068",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -120146,7 +120803,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q206548 · TM:3225",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -120200,7 +120857,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q184612 · TM:3144",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -120393,12 +121050,12 @@
   "tm_id": "2995",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Team 2006",
+   "club": "Hanovre 96",
    "date": "2004-01-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q107089 · TM:2995",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -120809,19 +121466,37 @@
     "avant": null,
     "apres": "3531",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q207403",
+    "name": "Róbert Vittek",
+    "champ": "club_actuel",
+    "avant": "ŠK Slovan Bratislava",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q207403",
+    "name": "Róbert Vittek",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "ŠK Slovan Bratislava",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "3531",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "İstanbul BB",
-   "date": "2013-01-01"
+   "club": "Debrecen VSC",
+   "date": "2016-10-05"
   },
   "confiance": "ok",
   "source": "wikidata:Q207403 · TM:3531",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -121397,7 +122072,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18753 · TM:7923",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -121487,7 +122162,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q27469970 · TM:351809",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -121586,7 +122261,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2339 · TM:4380",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -121730,7 +122405,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q44663 · TM:88712",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -122540,7 +123215,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q16724213 · TM:221958",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -122792,7 +123467,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q2468436 · TM:121756",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -122846,7 +123521,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q212617 · TM:30697",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -122954,7 +123629,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q56332606 · TM:480267",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -123278,7 +123953,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q326240 · TM:131978",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -123629,7 +124304,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q212925 · TM:35522",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -123674,7 +124349,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q21621168 · TM:258004",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -124070,7 +124745,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q642934 · TM:37598",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -124187,7 +124862,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q190608 · TM:3624",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -124616,19 +125291,28 @@
     "avant": null,
     "apres": "146795",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q44527",
+    "name": "Ryan Fraser",
+    "champ": "club_actuel",
+    "avant": "Southampton FC",
+    "apres": "Macarthur Football Club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Southampton FC",
+  "club_actuel": "Macarthur Football Club",
   "statut": "en_activite",
   "tm_id": "146795",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Southampton FC",
-   "date": "2024-08-30"
+   "club": "Macarthur Football Club",
+   "date": "2026-08-31"
   },
   "confiance": "ok",
   "source": "wikidata:Q44527 · TM:146795",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -124772,7 +125456,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q4459692 · TM:61834",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -124880,7 +125564,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q208557 · TM:28878",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -125141,7 +125825,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q63699748 · TM:475413",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -125186,7 +125870,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q209942 · TM:200512",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -125447,7 +126131,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1572632 · TM:126534",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -125690,7 +126374,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q703661 · TM:3693",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -125744,7 +126428,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q314744 · TM:42678",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -126140,7 +126824,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q54094 · TM:29401",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -126680,7 +127364,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q342572 · TM:3427",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -127145,19 +127829,37 @@
     "avant": "équipe d'Espagne espoirs de football",
     "apres": "Valence CF",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q7420322",
+    "name": "Santiago Mina",
+    "champ": "club_actuel",
+    "avant": "Valence CF",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q7420322",
+    "name": "Santiago Mina",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Valence CF",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "255653",
   "dernier_mouvement": {
-   "type": "transfert",
-   "club": "Valence CF",
-   "date": "2015-01-01"
+   "type": "pret",
+   "club": "Al-Shabab Riyad",
+   "date": "2022-08-23"
   },
   "confiance": "ok",
   "source": "wikidata:Q7420322 · TM:255653",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -127346,7 +128048,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q28800473 · TM:350357",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -127652,7 +128354,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q295627 · TM:14555",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -127967,7 +128669,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q28542599 · TM:346707",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -128066,7 +128768,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q160106 · TM:337",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -128219,7 +128921,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q141354 · TM:410",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -128390,7 +129092,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q642850 · TM:44466",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -128696,7 +129398,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q1942 · TM:5293",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -128864,10 +129566,28 @@
     "avant": null,
     "apres": "61449",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q453512",
+    "name": "Senad Lulić",
+    "champ": "club_actuel",
+    "avant": "Società Sportiva Lazio",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q453512",
+    "name": "Senad Lulić",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Società Sportiva Lazio",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "61449",
   "dernier_mouvement": {
    "type": "transfert",
@@ -128876,7 +129596,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q453512 · TM:61449",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -129128,7 +129848,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q59490 · TM:159471",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -129542,7 +130262,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q119562 · TM:26399",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -129650,7 +130370,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q49704 · TM:65230",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -129965,7 +130685,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q30346413 · TM:366930",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -130109,7 +130829,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q6125605 · TM:207302",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -130163,7 +130883,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q215463 · TM:30690",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -131153,7 +131873,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q318530 · TM:34026",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -131693,7 +132413,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q350988 · TM:56703",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -132023,19 +132743,37 @@
     "avant": null,
     "apres": "35934",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q350396",
+    "name": "Slobodan Rajković",
+    "champ": "club_actuel",
+    "avant": "SV Darmstadt 98",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q350396",
+    "name": "Slobodan Rajković",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "SV Darmstadt 98",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "35934",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "SV Darmstadt 98",
-   "date": "2015-01-01"
+   "club": "MTK Budapest FC",
+   "date": "2022-01-19"
   },
   "confiance": "ok",
   "source": "wikidata:Q350396 · TM:35934",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -133070,7 +133808,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q15731856 · TM:167859",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -133421,7 +134159,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312928 · TM:27470",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -133808,7 +134546,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q331908 · TM:12125",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -133970,7 +134708,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q239914 · TM:4038",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -134048,10 +134786,28 @@
     "avant": null,
     "apres": "3562",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q312117",
+    "name": "Steve Harper",
+    "champ": "club_actuel",
+    "avant": "Sunderland AFC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q312117",
+    "name": "Steve Harper",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Sunderland AFC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "3562",
   "dernier_mouvement": {
    "type": "transfert",
@@ -134060,7 +134816,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312117 · TM:3562",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -134555,7 +135311,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q442492 · TM:73734",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -135464,7 +136220,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q326293 · TM:27621",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -135518,7 +136274,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q312002 · TM:3359",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -135734,7 +136490,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q367474 · TM:111881",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -136643,7 +137399,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q29516 · TM:33713",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -136751,7 +137507,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q191885 · TM:7602",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -137039,7 +137795,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q62403 · TM:66",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -137093,7 +137849,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q505800 · TM:722",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -137885,7 +138641,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q210944 · TM:8538",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -138503,10 +139259,28 @@
     "avant": null,
     "apres": "315131",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q22969552",
+    "name": "Timothy Fosu-Mensah",
+    "champ": "club_actuel",
+    "avant": "Bayer Leverkusen",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q22969552",
+    "name": "Timothy Fosu-Mensah",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Bayer Leverkusen",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "315131",
   "dernier_mouvement": {
    "type": "transfert",
@@ -138515,7 +139289,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q22969552 · TM:315131",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -139334,7 +140108,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q603051 · TM:63252",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -139424,7 +140198,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q313938 · TM:38746",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -139610,10 +140384,28 @@
     "avant": null,
     "apres": "1320",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q484766",
+    "name": "Tomasz Kuszczak",
+    "champ": "club_actuel",
+    "avant": "Birmingham City FC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q484766",
+    "name": "Tomasz Kuszczak",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Birmingham City FC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "1320",
   "dernier_mouvement": {
    "type": "transfert",
@@ -139622,7 +140414,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q484766 · TM:1320",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -139817,19 +140609,37 @@
     "avant": null,
     "apres": "60790",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q2319654",
+    "name": "Toni Šunjić",
+    "champ": "club_actuel",
+    "avant": "VfB Stuttgart",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q2319654",
+    "name": "Toni Šunjić",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "VfB Stuttgart",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "60790",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "VfB Stuttgart",
-   "date": "2015-01-01"
+   "club": "Henan Songshan Longmen Football Club",
+   "date": "2021-01-02"
   },
   "confiance": "ok",
   "source": "wikidata:Q2319654 · TM:60790",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -141233,7 +142043,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q217389 · TM:21905",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -141278,7 +142088,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q275986 · TM:145115",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -141476,7 +142286,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q155604 · TM:21175",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -141884,13 +142694,13 @@
   "statut": "retraite",
   "tm_id": "92141",
   "dernier_mouvement": {
-   "type": "pret",
-   "club": "Atletico Nacional",
-   "date": "2016-01-01"
+   "type": "transfert",
+   "club": "Unione Sportiva Città di Pontedera",
+   "date": "2026-08-29"
   },
   "confiance": "ok",
   "source": "wikidata:Q2117509 · TM:92141",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -141935,7 +142745,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q4125587 · TM:184573",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -141974,13 +142784,13 @@
   "statut": "en_activite",
   "tm_id": "67082",
   "dernier_mouvement": {
-   "type": "transfert",
-   "club": "Club Atlético de Madrid",
-   "date": "2018-01-01"
+   "type": "pret",
+   "club": "Getafe CF",
+   "date": "2021-07-05"
   },
   "confiance": "ok",
   "source": "wikidata:Q7944670 · TM:67082",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -142421,7 +143231,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q923884 · TM:73090",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -142475,7 +143285,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q298338 · TM:5351",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -142628,7 +143438,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q147172 · TM:37760",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -142853,7 +143663,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q28973866 · TM:371998",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -143030,19 +143840,28 @@
     "avant": null,
     "apres": "33781",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q275977",
+    "name": "Vito Mannone",
+    "champ": "club_actuel",
+    "avant": "Reading FC",
+    "apres": "Crawley Town Football Club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Reading FC",
+  "club_actuel": "Crawley Town Football Club",
   "statut": "en_activite",
   "tm_id": "33781",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Reading FC",
-   "date": "2017-01-01"
+   "club": "Crawley Town Football Club",
+   "date": "2026-07-01"
   },
   "confiance": "ok",
   "source": "wikidata:Q275977 · TM:33781",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -143456,7 +144275,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q217507 · TM:92701",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -143489,20 +144308,38 @@
     "avant": null,
     "apres": "30670",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q316923",
+    "name": "Vurnon Anita",
+    "champ": "club_actuel",
+    "avant": "Newcastle United FC",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q316923",
+    "name": "Vurnon Anita",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "sans_club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "Newcastle United FC",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "sans_club",
   "tm_id": "30670",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "Newcastle United FC",
-   "date": "2012-01-01"
+   "club": "FC Volendam",
+   "date": "2025-01-16"
   },
   "confiance": "ok",
   "source": "wikidata:Q316923 · TM:30670",
-  "verifie_le": "2026-11-10",
-  "eligible_jour": true
+  "verifie_le": "2026-11-17",
+  "eligible_jour": false
  },
  {
   "id": "Q27794",
@@ -144419,7 +145256,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q294749 · TM:4338",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -144974,19 +145811,37 @@
     "avant": null,
     "apres": "142310",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q570983",
+    "name": "Willy Boly",
+    "champ": "club_actuel",
+    "avant": "S.C. Braga B",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q570983",
+    "name": "Willy Boly",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "sans_club",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "S.C. Braga B",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "sans_club",
   "tm_id": "142310",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "S.C. Braga B",
-   "date": "2015-01-01"
+   "club": "Nottingham Forest FC",
+   "date": "2022-09-01"
   },
-  "confiance": "a_verifier",
+  "confiance": "ok",
   "source": "wikidata:Q570983 · TM:142310",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -145580,7 +146435,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q252190 · TM:86792",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -145832,7 +146687,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q115399505 · TM:1012534",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -146273,7 +147128,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q184277 · TM:13091",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -146450,19 +147305,37 @@
     "avant": null,
     "apres": "42942",
     "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q312377",
+    "name": "Yióryos Tzabélas",
+    "champ": "club_actuel",
+    "avant": "PAOK Salonique",
+    "apres": "",
+    "source": "wikidata"
+   },
+   {
+    "date": "2026-11-17",
+    "id": "Q312377",
+    "name": "Yióryos Tzabélas",
+    "champ": "statut",
+    "avant": "en_activite",
+    "apres": "retraite",
+    "source": "wikidata"
    }
   ],
-  "club_actuel": "PAOK Salonique",
-  "statut": "en_activite",
+  "club_actuel": "",
+  "statut": "retraite",
   "tm_id": "42942",
   "dernier_mouvement": {
    "type": "transfert",
-   "club": "PAOK Salonique",
-   "date": "2013-01-01"
+   "club": "Atromitos Football Club",
+   "date": "2023-09-11"
   },
   "confiance": "ok",
   "source": "wikidata:Q312377 · TM:42942",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -146516,7 +147389,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q76322 · TM:618",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -146813,7 +147686,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q188983 · TM:6106",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
@@ -147119,7 +147992,7 @@
   },
   "confiance": "a_verifier",
   "source": "wikidata:Q56282611 · TM:569598",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": false
  },
  {
@@ -147632,7 +148505,7 @@
   },
   "confiance": "ok",
   "source": "wikidata:Q18633850 · TM:221624",
-  "verifie_le": "2026-11-10",
+  "verifie_le": "2026-11-17",
   "eligible_jour": true
  },
  {
